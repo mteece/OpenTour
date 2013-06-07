@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542810541760213200739BB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810531760213200739BB5 /* UIKit.framework */; };
+		542810561760213200739BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810551760213200739BB5 /* Foundation.framework */; };
+		542810581760213200739BB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810571760213200739BB5 /* CoreGraphics.framework */; };
+		5428105E1760213200739BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5428105C1760213200739BB5 /* InfoPlist.strings */; };
+		542810601760213200739BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428105F1760213200739BB5 /* main.m */; };
+		542810641760213200739BB5 /* OTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542810631760213200739BB5 /* OTAppDelegate.m */; };
+		542810661760213200739BB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 542810651760213200739BB5 /* Default.png */; };
+		542810681760213200739BB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542810671760213200739BB5 /* Default@2x.png */; };
+		5428106A1760213200739BB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 542810691760213200739BB5 /* Default-568h@2x.png */; };
+		542810721760213200739BB5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810711760213200739BB5 /* SenTestingKit.framework */; };
+		542810731760213200739BB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810531760213200739BB5 /* UIKit.framework */; };
+		542810741760213200739BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542810551760213200739BB5 /* Foundation.framework */; };
+		5428107C1760213200739BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5428107A1760213200739BB5 /* InfoPlist.strings */; };
+		5428107F1760213200739BB5 /* OpenTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428107E1760213200739BB5 /* OpenTourTests.m */; };
+		5428108917602D3D00739BB5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5428108817602D3D00739BB5 /* Localizable.strings */; };
+		542810901761222400739BB5 /* OTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428108E1761222400739BB5 /* OTRootViewController.m */; };
+		542810911761222400739BB5 /* OTRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5428108F1761222400739BB5 /* OTRootViewController.xib */; };
+		5428109B1762277100739BB5 /* OTMobileIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428109A1762277100739BB5 /* OTMobileIdentifier.m */; };
+		656D1E39DC264226A889B76E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D66CE5F170E4F699746636B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542810751760213200739BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542810481760213200739BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5428104F1760213200739BB5;
+			remoteInfo = OpenTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292113A5272B4C8791F04842 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		3D66CE5F170E4F699746636B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		542810501760213200739BB5 /* OpenTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542810531760213200739BB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		542810551760213200739BB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		542810571760213200739BB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5428105B1760213200739BB5 /* OpenTour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTour-Info.plist"; sourceTree = "<group>"; };
+		5428105D1760213200739BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5428105F1760213200739BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		542810611760213200739BB5 /* OpenTour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTour-Prefix.pch"; sourceTree = "<group>"; };
+		542810621760213200739BB5 /* OTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAppDelegate.h; sourceTree = "<group>"; };
+		542810631760213200739BB5 /* OTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAppDelegate.m; sourceTree = "<group>"; };
+		542810651760213200739BB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		542810671760213200739BB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		542810691760213200739BB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		542810701760213200739BB5 /* OpenTourTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTourTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542810711760213200739BB5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		542810791760213200739BB5 /* OpenTourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTourTests-Info.plist"; sourceTree = "<group>"; };
+		5428107B1760213200739BB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5428107D1760213200739BB5 /* OpenTourTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTourTests.h; sourceTree = "<group>"; };
+		5428107E1760213200739BB5 /* OpenTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTourTests.m; sourceTree = "<group>"; };
+		5428108817602D3D00739BB5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5428108D1761222400739BB5 /* OTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRootViewController.h; sourceTree = "<group>"; };
+		5428108E1761222400739BB5 /* OTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRootViewController.m; sourceTree = "<group>"; };
+		5428108F1761222400739BB5 /* OTRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTRootViewController.xib; sourceTree = "<group>"; };
+		542810991762277100739BB5 /* OTMobileIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMobileIdentifier.h; sourceTree = "<group>"; };
+		5428109A1762277100739BB5 /* OTMobileIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMobileIdentifier.m; sourceTree = "<group>"; };
+		5428109C1762287600739BB5 /* OpenTourConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTourConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5428104D1760213200739BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542810541760213200739BB5 /* UIKit.framework in Frameworks */,
+				542810561760213200739BB5 /* Foundation.framework in Frameworks */,
+				542810581760213200739BB5 /* CoreGraphics.framework in Frameworks */,
+				656D1E39DC264226A889B76E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428106C1760213200739BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542810721760213200739BB5 /* SenTestingKit.framework in Frameworks */,
+				542810731760213200739BB5 /* UIKit.framework in Frameworks */,
+				542810741760213200739BB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542810471760213200739BB5 = {
+			isa = PBXGroup;
+			children = (
+				542810591760213200739BB5 /* OpenTour */,
+				542810771760213200739BB5 /* OpenTourTests */,
+				542810521760213200739BB5 /* Frameworks */,
+				542810511760213200739BB5 /* Products */,
+				292113A5272B4C8791F04842 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		542810511760213200739BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542810501760213200739BB5 /* OpenTour.app */,
+				542810701760213200739BB5 /* OpenTourTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542810521760213200739BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542810531760213200739BB5 /* UIKit.framework */,
+				542810551760213200739BB5 /* Foundation.framework */,
+				542810571760213200739BB5 /* CoreGraphics.framework */,
+				542810711760213200739BB5 /* SenTestingKit.framework */,
+				3D66CE5F170E4F699746636B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		542810591760213200739BB5 /* OpenTour */ = {
+			isa = PBXGroup;
+			children = (
+				542810921762265600739BB5 /* Classes */,
+				542810931762265600739BB5 /* Interface */,
+				542810621760213200739BB5 /* OTAppDelegate.h */,
+				542810631760213200739BB5 /* OTAppDelegate.m */,
+				5428105A1760213200739BB5 /* Supporting Files */,
+				5428108D1761222400739BB5 /* OTRootViewController.h */,
+				5428108E1761222400739BB5 /* OTRootViewController.m */,
+				5428108F1761222400739BB5 /* OTRootViewController.xib */,
+			);
+			path = OpenTour;
+			sourceTree = "<group>";
+		};
+		5428105A1760213200739BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5428105B1760213200739BB5 /* OpenTour-Info.plist */,
+				5428105C1760213200739BB5 /* InfoPlist.strings */,
+				5428105F1760213200739BB5 /* main.m */,
+				542810611760213200739BB5 /* OpenTour-Prefix.pch */,
+				542810651760213200739BB5 /* Default.png */,
+				542810671760213200739BB5 /* Default@2x.png */,
+				542810691760213200739BB5 /* Default-568h@2x.png */,
+				5428108817602D3D00739BB5 /* Localizable.strings */,
+				5428109C1762287600739BB5 /* OpenTourConstants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542810771760213200739BB5 /* OpenTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				5428107D1760213200739BB5 /* OpenTourTests.h */,
+				5428107E1760213200739BB5 /* OpenTourTests.m */,
+				542810781760213200739BB5 /* Supporting Files */,
+			);
+			path = OpenTourTests;
+			sourceTree = "<group>";
+		};
+		542810781760213200739BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				542810791760213200739BB5 /* OpenTourTests-Info.plist */,
+				5428107A1760213200739BB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542810921762265600739BB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54281095176226EE00739BB5 /* Categories */,
+				54281096176226EE00739BB5 /* Delegates */,
+				54281097176226EE00739BB5 /* Models */,
+				54281098176226EE00739BB5 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		542810931762265600739BB5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				542810941762267600739BB5 /* Maps */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		542810941762267600739BB5 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		54281095176226EE00739BB5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		54281096176226EE00739BB5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		54281097176226EE00739BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54281098176226EE00739BB5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				542810991762277100739BB5 /* OTMobileIdentifier.h */,
+				5428109A1762277100739BB5 /* OTMobileIdentifier.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5428104F1760213200739BB5 /* OpenTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542810821760213200739BB5 /* Build configuration list for PBXNativeTarget "OpenTour" */;
+			buildPhases = (
+				8A698A38F2A64E3995AFBD24 /* Check Pods Manifest.lock */,
+				5428104C1760213200739BB5 /* Sources */,
+				5428104D1760213200739BB5 /* Frameworks */,
+				5428104E1760213200739BB5 /* Resources */,
+				919BEC538F9246F3ADF0B9E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTour;
+			productName = OpenTour;
+			productReference = 542810501760213200739BB5 /* OpenTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5428106F1760213200739BB5 /* OpenTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542810851760213200739BB5 /* Build configuration list for PBXNativeTarget "OpenTourTests" */;
+			buildPhases = (
+				5428106B1760213200739BB5 /* Sources */,
+				5428106C1760213200739BB5 /* Frameworks */,
+				5428106D1760213200739BB5 /* Resources */,
+				5428106E1760213200739BB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542810761760213200739BB5 /* PBXTargetDependency */,
+			);
+			name = OpenTourTests;
+			productName = OpenTourTests;
+			productReference = 542810701760213200739BB5 /* OpenTourTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542810481760213200739BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matthew Teece";
+			};
+			buildConfigurationList = 5428104B1760213200739BB5 /* Build configuration list for PBXProject "OpenTour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 542810471760213200739BB5;
+			productRefGroup = 542810511760213200739BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5428104F1760213200739BB5 /* OpenTour */,
+				5428106F1760213200739BB5 /* OpenTourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5428104E1760213200739BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428105E1760213200739BB5 /* InfoPlist.strings in Resources */,
+				542810661760213200739BB5 /* Default.png in Resources */,
+				542810681760213200739BB5 /* Default@2x.png in Resources */,
+				5428106A1760213200739BB5 /* Default-568h@2x.png in Resources */,
+				5428108917602D3D00739BB5 /* Localizable.strings in Resources */,
+				542810911761222400739BB5 /* OTRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428106D1760213200739BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428107C1760213200739BB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5428106E1760213200739BB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8A698A38F2A64E3995AFBD24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+		919BEC538F9246F3ADF0B9E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5428104C1760213200739BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542810601760213200739BB5 /* main.m in Sources */,
+				542810641760213200739BB5 /* OTAppDelegate.m in Sources */,
+				542810901761222400739BB5 /* OTRootViewController.m in Sources */,
+				5428109B1762277100739BB5 /* OTMobileIdentifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428106B1760213200739BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5428107F1760213200739BB5 /* OpenTourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542810761760213200739BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5428104F1760213200739BB5 /* OpenTour */;
+			targetProxy = 542810751760213200739BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5428105C1760213200739BB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5428105D1760213200739BB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5428107A1760213200739BB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5428107B1760213200739BB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542810801760213200739BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		542810811760213200739BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542810831760213200739BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292113A5272B4C8791F04842 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTour/OpenTour-Prefix.pch";
+				INFOPLIST_FILE = "OpenTour/OpenTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		542810841760213200739BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292113A5272B4C8791F04842 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTour/OpenTour-Prefix.pch";
+				INFOPLIST_FILE = "OpenTour/OpenTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		542810861760213200739BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTour.app/OpenTour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTour/OpenTour-Prefix.pch";
+				INFOPLIST_FILE = "OpenTourTests/OpenTourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		542810871760213200739BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTour.app/OpenTour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTour/OpenTour-Prefix.pch";
+				INFOPLIST_FILE = "OpenTourTests/OpenTourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5428104B1760213200739BB5 /* Build configuration list for PBXProject "OpenTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542810801760213200739BB5 /* Debug */,
+				542810811760213200739BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542810821760213200739BB5 /* Build configuration list for PBXNativeTarget "OpenTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542810831760213200739BB5 /* Debug */,
+				542810841760213200739BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542810851760213200739BB5 /* Build configuration list for PBXNativeTarget "OpenTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542810861760213200739BB5 /* Debug */,
+				542810871760213200739BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542810481760213200739BB5 /* Project object */;
+}

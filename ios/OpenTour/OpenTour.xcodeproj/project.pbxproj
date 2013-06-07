@@ -25,6 +25,10 @@
 		542810901761222400739BB5 /* OTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428108E1761222400739BB5 /* OTRootViewController.m */; };
 		542810911761222400739BB5 /* OTRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5428108F1761222400739BB5 /* OTRootViewController.xib */; };
 		5428109B1762277100739BB5 /* OTMobileIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5428109A1762277100739BB5 /* OTMobileIdentifier.m */; };
+		542810A5176263F000739BB5 /* OTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542810A4176263F000739BB5 /* OTMapViewController.m */; };
+		542810A8176265AA00739BB5 /* dover-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A6176265AA00739BB5 /* dover-nh.gpx */; };
+		542810A9176265AA00739BB5 /* portsmouth-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A7176265AA00739BB5 /* portsmouth-nh.gpx */; };
+		542810AD1762751E00739BB5 /* OTDirectionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 542810AC1762751E00739BB5 /* OTDirectionRepository.m */; };
 		656D1E39DC264226A889B76E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D66CE5F170E4F699746636B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,12 @@
 		542810991762277100739BB5 /* OTMobileIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMobileIdentifier.h; sourceTree = "<group>"; };
 		5428109A1762277100739BB5 /* OTMobileIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMobileIdentifier.m; sourceTree = "<group>"; };
 		5428109C1762287600739BB5 /* OpenTourConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTourConstants.h; sourceTree = "<group>"; };
+		542810A3176263F000739BB5 /* OTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMapViewController.h; sourceTree = "<group>"; };
+		542810A4176263F000739BB5 /* OTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMapViewController.m; sourceTree = "<group>"; };
+		542810A6176265AA00739BB5 /* dover-nh.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "dover-nh.gpx"; sourceTree = "<group>"; };
+		542810A7176265AA00739BB5 /* portsmouth-nh.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "portsmouth-nh.gpx"; sourceTree = "<group>"; };
+		542810AB1762751E00739BB5 /* OTDirectionRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDirectionRepository.h; sourceTree = "<group>"; };
+		542810AC1762751E00739BB5 /* OTDirectionRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDirectionRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +154,8 @@
 		5428105A1760213200739BB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				542810A6176265AA00739BB5 /* dover-nh.gpx */,
+				542810A7176265AA00739BB5 /* portsmouth-nh.gpx */,
 				5428105B1760213200739BB5 /* OpenTour-Info.plist */,
 				5428105C1760213200739BB5 /* InfoPlist.strings */,
 				5428105F1760213200739BB5 /* main.m */,
@@ -179,6 +191,7 @@
 		542810921762265600739BB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				542810AA176274CC00739BB5 /* Repositories */,
 				54281095176226EE00739BB5 /* Categories */,
 				54281096176226EE00739BB5 /* Delegates */,
 				54281097176226EE00739BB5 /* Models */,
@@ -198,6 +211,8 @@
 		542810941762267600739BB5 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				542810A3176263F000739BB5 /* OTMapViewController.h */,
+				542810A4176263F000739BB5 /* OTMapViewController.m */,
 			);
 			path = Maps;
 			sourceTree = "<group>";
@@ -230,6 +245,15 @@
 				5428109A1762277100739BB5 /* OTMobileIdentifier.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		542810AA176274CC00739BB5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				542810AB1762751E00739BB5 /* OTDirectionRepository.h */,
+				542810AC1762751E00739BB5 /* OTDirectionRepository.m */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +336,8 @@
 				5428106A1760213200739BB5 /* Default-568h@2x.png in Resources */,
 				5428108917602D3D00739BB5 /* Localizable.strings in Resources */,
 				542810911761222400739BB5 /* OTRootViewController.xib in Resources */,
+				542810A8176265AA00739BB5 /* dover-nh.gpx in Resources */,
+				542810A9176265AA00739BB5 /* portsmouth-nh.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +404,8 @@
 				542810641760213200739BB5 /* OTAppDelegate.m in Sources */,
 				542810901761222400739BB5 /* OTRootViewController.m in Sources */,
 				5428109B1762277100739BB5 /* OTMobileIdentifier.m in Sources */,
+				542810A5176263F000739BB5 /* OTMapViewController.m in Sources */,
+				542810AD1762751E00739BB5 /* OTDirectionRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

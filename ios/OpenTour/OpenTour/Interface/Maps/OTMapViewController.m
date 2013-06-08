@@ -35,36 +35,6 @@
     waypoints_ = [[NSMutableArray alloc] init];
     waypointStrings_ = [[NSMutableArray alloc]init];
     
-    //TODO: This merely populates the waypoints in the array.
-    CLLocationCoordinate2D positionA = CLLocationCoordinate2DMake(43.072971, -70.750420);
-    CLLocationCoordinate2D positionB = CLLocationCoordinate2DMake(43.075436, -70.750951);
-    CLLocationCoordinate2D positionC = CLLocationCoordinate2DMake(43.077759, -70.753649);
-    
-    GMSMarker *markerA = [GMSMarker markerWithPosition:positionA];
-    GMSMarker *markerB = [GMSMarker markerWithPosition:positionB];
-    GMSMarker *markerC = [GMSMarker markerWithPosition:positionC];
-    
-    markerA.title = @"Marcy Street Fish Market";
-    markerA.snippet = @"Nice Neighborhood.";
-    markerA.map = mapView_;
-    
-    markerB.map = mapView_;
-    markerC.map = mapView_;
-    
-    [waypoints_ addObject:markerA];
-    [waypoints_ addObject:markerB];
-    [waypoints_ addObject:markerC];
-    
-    NSString *positionStringA = [[NSString alloc] initWithFormat:@"%f,%f",
-                                43.072971, -70.750420];
-    NSString *positionStringB = [[NSString alloc] initWithFormat:@"%f,%f",
-                                 43.075436, -70.750951];
-    NSString *positionStringC = [[NSString alloc] initWithFormat:@"%f,%f",
-                                 43.077759, -70.753649];
-    [waypointStrings_ addObject:positionStringA];
-    [waypointStrings_ addObject:positionStringB];
-    [waypointStrings_ addObject:positionStringC];
-    
     // TODO: Camera Position is deterined by where the user is.
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -70.749856 at zoom level 6.
@@ -78,6 +48,39 @@
     mapView_.settings.tiltGestures = YES;
     self.view = mapView_;
     
+    //TODO: This merely populates the waypoints in the array.
+    CLLocationCoordinate2D positionA = CLLocationCoordinate2DMake(43.072971, -70.750420);
+    CLLocationCoordinate2D positionB = CLLocationCoordinate2DMake(43.075436, -70.750951);
+    CLLocationCoordinate2D positionC = CLLocationCoordinate2DMake(43.077759, -70.753649);
+    
+    GMSMarker *markerA = [GMSMarker markerWithPosition:positionA];
+    GMSMarker *markerB = [GMSMarker markerWithPosition:positionB];
+    GMSMarker *markerC = [GMSMarker markerWithPosition:positionC];
+    
+    markerA.title = @"Marcy Street";
+    markerA.snippet = @"Nice Neighborhood.";
+    markerA.animated = YES;
+    markerA.infoWindowAnchor = CGPointMake(0.5, 0.5);
+    markerA.map = mapView_;
+    
+    markerB.map = mapView_;
+    markerC.map = mapView_;
+    
+    [waypoints_ addObject:markerA];
+    [waypoints_ addObject:markerB];
+    [waypoints_ addObject:markerC];
+    
+    NSString *positionStringA = [[NSString alloc] initWithFormat:@"%f,%f",
+                                 43.072971, -70.750420];
+    NSString *positionStringB = [[NSString alloc] initWithFormat:@"%f,%f",
+                                 43.075436, -70.750951];
+    NSString *positionStringC = [[NSString alloc] initWithFormat:@"%f,%f",
+                                 43.077759, -70.753649];
+    [waypointStrings_ addObject:positionStringA];
+    [waypointStrings_ addObject:positionStringB];
+    [waypointStrings_ addObject:positionStringC];
+    
+    // Plot the course.
     [self plotWaypoints];
     
     // Creates a marker in the center of the map.

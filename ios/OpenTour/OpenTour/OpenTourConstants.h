@@ -16,5 +16,6 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 #define kDeviceId @"device_id_setting"
+#define kDeviceApiKey @"device_api_key"
 
 #endif

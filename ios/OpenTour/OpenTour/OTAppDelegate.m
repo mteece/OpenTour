@@ -28,6 +28,7 @@
     NSString* uuid = [OTMobileIdentifier mobileID];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:uuid forKey:kDeviceId];
+    [defaults setObject:@"ABC-123" forKey:kDeviceApiKey];
     [defaults synchronize];
     
     OTRootViewController *rootViewController = [[OTRootViewController alloc] initWithNibName:@"OTRootViewController" bundle:nil];

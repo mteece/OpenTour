@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface OTMapViewController : UIViewController
+@interface OTMapViewController : UIViewController <CLLocationManagerDelegate>
 
 @end

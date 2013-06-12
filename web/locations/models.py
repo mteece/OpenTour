@@ -37,3 +37,15 @@ class WaypointNote(models.Model):
 
     def __unicode__(self):
         return "%s: %s" % (self.waypoint, self.content[:50])
+
+
+class WaypointPhoto(models.Model):
+    waypoint = models.ForeignKey(Waypoint, related_name="photos")
+    user = models.ForeignKey(User, related_name="photos")
+    image = models.ImageField(upload_to="tours")
+    description = models.TextField(blank=True)
+
+    def __unicode__(self):
+        if self.description:
+            return self.description[:50]
+        return "Photo of %s by %s" % (self.waypoint, self.user)

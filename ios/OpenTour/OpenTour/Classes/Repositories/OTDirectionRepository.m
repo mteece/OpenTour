@@ -31,10 +31,12 @@ static NSString *kMDDirectionsURL = @"https://maps.googleapis.com/maps/api/direc
     NSString *sensor = [query objectForKey:@"sensor"];
     NSMutableString *url = [NSMutableString stringWithFormat:@"%@&origin=%@&destination=%@&sensor=%@&mode=walking", kMDDirectionsURL,origin,destination, sensor];
     if(waypointCount>2) {
-        [url appendString:@"&waypoints=optimize:true"];
-        int wpCount = waypointCount-2;
-        for(int i=1;i<wpCount;i++){
-            [url appendString: @"|"];
+        [url appendString:@"&waypoints=optimize:true|"];
+        int end = destinationPos;
+        for(int i=0;i <waypointCount; i++){
+            if (i > 0 && i <= waypointCount) {
+                [url appendString: @"|"];
+            }
             [url appendString:[waypoints objectAtIndex:i]];
         }
     }

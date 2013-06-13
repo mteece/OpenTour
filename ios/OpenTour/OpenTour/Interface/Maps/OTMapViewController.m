@@ -52,7 +52,7 @@
     
     //TODO: This merely populates the waypoints in the array.
     CLLocationCoordinate2D positionA = CLLocationCoordinate2DMake(43.072971, -70.750420);
-    CLLocationCoordinate2D positionB = CLLocationCoordinate2DMake(43.075436, -70.750951);
+    CLLocationCoordinate2D positionB = CLLocationCoordinate2DMake(43.075118, -70.753865);
     CLLocationCoordinate2D positionC = CLLocationCoordinate2DMake(43.077759, -70.753649);
     
     GMSMarker *markerA = [GMSMarker markerWithPosition:positionA];
@@ -65,14 +65,16 @@
     markerA.infoWindowAnchor = CGPointMake(0.5, 0.5);
     markerA.map = mapView_;
     
-    markerB.title = @"Marcy Street";
-    markerB.snippet = @"Nice Neighborhood.";
+    markerB.title = @"Liberty Gardens";
+    markerB.snippet = @"Nice Flowers.";
     markerB.animated = YES;
+    markerB.infoWindowAnchor = CGPointMake(0.5, 0.5);
     markerB.map = mapView_;
     
     markerC.title = @"Memorial Bridge";
     markerC.snippet = @"Bridge Construction.";
     markerC.animated = YES;
+    markerC.infoWindowAnchor = CGPointMake(0.5, 0.5);
     markerC.map = mapView_;
     
     [waypoints_ addObject:markerA];
@@ -82,9 +84,10 @@
     NSString *positionStringA = [[NSString alloc] initWithFormat:@"%f,%f",
                                  43.072971, -70.750420];
     NSString *positionStringB = [[NSString alloc] initWithFormat:@"%f,%f",
-                                 43.075436, -70.750951];
+                                 43.075118, -70.753865];
     NSString *positionStringC = [[NSString alloc] initWithFormat:@"%f,%f",
                                  43.077759, -70.753649];
+    
     [waypointStrings_ addObject:positionStringA];
     [waypointStrings_ addObject:positionStringB];
     [waypointStrings_ addObject:positionStringC];
@@ -206,7 +209,7 @@
         if (newLocation.horizontalAccuracy <= locationManager_.desiredAccuracy) {
             // We have a measurement that meets our requirements, so we can stop updating the location
             // IMPORTANT!!! Minimize power usage by stopping the location manager as soon as possible.
-            // [locationManager_ stopUpdatingLocation];
+            [locationManager_ stopUpdatingLocation];
         }
     }
     

@@ -209,7 +209,7 @@
         if (newLocation.horizontalAccuracy <= locationManager_.desiredAccuracy) {
             // We have a measurement that meets our requirements, so we can stop updating the location
             // IMPORTANT!!! Minimize power usage by stopping the location manager as soon as possible.
-            [locationManager_ stopUpdatingLocation];
+            // [locationManager_ stopUpdatingLocation];
         }
     }
     

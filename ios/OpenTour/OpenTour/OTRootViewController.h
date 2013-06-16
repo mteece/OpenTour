@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OTRootViewController : UIViewController
+@interface OTRootViewController : UIViewController <UIScrollViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

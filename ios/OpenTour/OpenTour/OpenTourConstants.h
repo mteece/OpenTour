@@ -18,4 +18,6 @@
 #define kDeviceId @"device_id_setting"
 #define kDeviceApiKey @"device_api_key"
 
+#define kHeightNavigationBar 44
+
 #endif

@@ -5,3 +5,6 @@
   Created by Matthew Teece on 6/5/13.
   Copyright (c) 2013 Matthew Teece. All rights reserved.
 */
+
+/* Initial launch Welcome screen */
+"ROOT_VIEW_TITLE" = "Title";

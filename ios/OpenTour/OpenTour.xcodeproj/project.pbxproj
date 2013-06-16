@@ -29,6 +29,8 @@
 		542810A8176265AA00739BB5 /* dover-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A6176265AA00739BB5 /* dover-nh.gpx */; };
 		542810A9176265AA00739BB5 /* portsmouth-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A7176265AA00739BB5 /* portsmouth-nh.gpx */; };
 		542810AD1762751E00739BB5 /* OTDirectionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 542810AC1762751E00739BB5 /* OTDirectionRepository.m */; };
+		54B599E2176D156A00ED8D18 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599DF176D156A00ED8D18 /* NSDate+Utilities.m */; };
+		54B599E3176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E1176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m */; };
 		656D1E39DC264226A889B76E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D66CE5F170E4F699746636B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,10 @@
 		542810A7176265AA00739BB5 /* portsmouth-nh.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "portsmouth-nh.gpx"; sourceTree = "<group>"; };
 		542810AB1762751E00739BB5 /* OTDirectionRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDirectionRepository.h; sourceTree = "<group>"; };
 		542810AC1762751E00739BB5 /* OTDirectionRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDirectionRepository.m; sourceTree = "<group>"; };
+		54B599DE176D156A00ED8D18 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		54B599DF176D156A00ED8D18 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		54B599E0176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
+		54B599E1176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryStringBuilder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,8 @@
 		542810591760213200739BB5 /* OpenTour */ = {
 			isa = PBXGroup;
 			children = (
+				54B599D5176D146200ED8D18 /* Enums */,
+				54B599D6176D146200ED8D18 /* Images */,
 				542810921762265600739BB5 /* Classes */,
 				542810931762265600739BB5 /* Interface */,
 				542810621760213200739BB5 /* OTAppDelegate.h */,
@@ -191,6 +199,7 @@
 		542810921762265600739BB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54B599D2176BB0E400ED8D18 /* Subclasses */,
 				542810AA176274CC00739BB5 /* Repositories */,
 				54281095176226EE00739BB5 /* Categories */,
 				54281096176226EE00739BB5 /* Delegates */,
@@ -220,6 +229,10 @@
 		54281095176226EE00739BB5 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				54B599DE176D156A00ED8D18 /* NSDate+Utilities.h */,
+				54B599DF176D156A00ED8D18 /* NSDate+Utilities.m */,
+				54B599E0176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.h */,
+				54B599E1176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -254,6 +267,83 @@
 				542810AC1762751E00739BB5 /* OTDirectionRepository.m */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		54B599D2176BB0E400ED8D18 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		54B599D5176D146200ED8D18 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		54B599D6176D146200ED8D18 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				54B599D7176D14D500ED8D18 /* Interface */,
+				54B599DB176D14D500ED8D18 /* iPad */,
+				54B599DC176D14D500ED8D18 /* iPhone */,
+				54B599DD176D14D500ED8D18 /* iTunes */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		54B599D7176D14D500ED8D18 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				54B599D8176D14D500ED8D18 /* Backgrounds */,
+				54B599D9176D14D500ED8D18 /* Buttons */,
+				54B599DA176D14D500ED8D18 /* Logo */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		54B599D8176D14D500ED8D18 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		54B599D9176D14D500ED8D18 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		54B599DA176D14D500ED8D18 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		54B599DB176D14D500ED8D18 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		54B599DC176D14D500ED8D18 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		54B599DD176D14D500ED8D18 /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iTunes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +496,8 @@
 				5428109B1762277100739BB5 /* OTMobileIdentifier.m in Sources */,
 				542810A5176263F000739BB5 /* OTMapViewController.m in Sources */,
 				542810AD1762751E00739BB5 /* OTDirectionRepository.m in Sources */,
+				54B599E2176D156A00ED8D18 /* NSDate+Utilities.m in Sources */,
+				54B599E3176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

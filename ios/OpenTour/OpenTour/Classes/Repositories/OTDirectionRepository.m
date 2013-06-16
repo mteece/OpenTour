@@ -32,7 +32,6 @@ static NSString *kMDDirectionsURL = @"https://maps.googleapis.com/maps/api/direc
     NSMutableString *url = [NSMutableString stringWithFormat:@"%@&origin=%@&destination=%@&sensor=%@&mode=walking", kMDDirectionsURL,origin,destination, sensor];
     if(waypointCount>2) {
         [url appendString:@"&waypoints=optimize:true|"];
-        int end = destinationPos;
         for(int i=0;i <waypointCount; i++){
             if (i > 0 && i <= waypointCount) {
                 [url appendString: @"|"];
@@ -46,13 +45,6 @@ static NSString *kMDDirectionsURL = @"https://maps.googleapis.com/maps/api/direc
 }
 
 - (void)retrieveDirections:(SEL)selector withDelegate:(id)delegate{
-    /*dispatch_async(dispatch_get_main_queue(), ^{
-        NSData* data =
-        [NSData dataWithContentsOfURL:_directionsURL];
-        [self fetchedData:data withSelector:selector withDelegate:delegate];
-    });*/
-    
-    
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:_directionsURL];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id json) {

@@ -33,6 +33,7 @@
 		54B599E3176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E1176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m */; };
 		54B599E6176E8C9B00ED8D18 /* OTWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E5176E8C9B00ED8D18 /* OTWaypoint.m */; };
 		54B599E9176E8CB500ED8D18 /* OTTour.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E8176E8CB500ED8D18 /* OTTour.m */; };
+		54B604DE1772500900DB0A1A /* OTThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604DD1772500900DB0A1A /* OTThemeManager.m */; };
 		656D1E39DC264226A889B76E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D66CE5F170E4F699746636B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,8 @@
 		54B599E5176E8C9B00ED8D18 /* OTWaypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTWaypoint.m; sourceTree = "<group>"; };
 		54B599E7176E8CB500ED8D18 /* OTTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTour.h; sourceTree = "<group>"; };
 		54B599E8176E8CB500ED8D18 /* OTTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTour.m; sourceTree = "<group>"; };
+		54B604DC1772500900DB0A1A /* OTThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTThemeManager.h; sourceTree = "<group>"; };
+		54B604DD1772500900DB0A1A /* OTThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTThemeManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +269,8 @@
 			children = (
 				542810991762277100739BB5 /* OTMobileIdentifier.h */,
 				5428109A1762277100739BB5 /* OTMobileIdentifier.m */,
+				54B604DC1772500900DB0A1A /* OTThemeManager.h */,
+				54B604DD1772500900DB0A1A /* OTThemeManager.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -510,6 +515,7 @@
 				54B599E3176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m in Sources */,
 				54B599E6176E8C9B00ED8D18 /* OTWaypoint.m in Sources */,
 				54B599E9176E8CB500ED8D18 /* OTTour.m in Sources */,
+				54B604DE1772500900DB0A1A /* OTThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

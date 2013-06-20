@@ -7,4 +7,6 @@
 */
 
 /* Initial launch Welcome screen */
-"ROOT_VIEW_TITLE" = "Title";
+"ROOT_VIEW_TITLE" = "Open Tour";
+
+"ROOT_VIEW_BUTTON_AROUND_ME_PROMPT" = "Around me.";

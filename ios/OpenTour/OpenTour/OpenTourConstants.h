@@ -20,4 +20,20 @@
 
 #define kHeightNavigationBar 44
 
+/* Application Fonts
+ Helvetica	3.0	4.3
+ Helvetica-Bold	3.0	4.3
+ Helvetica-BoldOblique	3.0	4.3
+ Helvetica-Light	5.0	5.0
+ Helvetica-LightOblique	5.0	5.0
+ Helvetica-Oblique
+ */
+
+#define kAppStandardFontName @"Helvetica"
+#define kAppStandardFontBoldName @"Helvetica-Bold"
+#define kAppStandardFontBoldOblique @"Helvetica-BoldOblique"
+#define kAppStandardFontLight @"Helvetica-Light"
+#define kAppStandardFontLightOblique @"Helvetica-LightOblique"
+#define kAppStandardFontOblique @"Helvetica-Oblique"
+
 #endif

@@ -6,11 +6,12 @@
 //  Copyright (c) 2013 Matthew Teece. All rights reserved.
 //
 
+#import "OTAppDelegate.h"
+
 #import "OTMobileIdentifier.h"
 #import "OTRootViewController.h"
+#import "OTThemeManager.h"
 #import <GoogleMaps/GoogleMaps.h>
-
-#import "OTAppDelegate.h"
 
 @implementation OTAppDelegate
 
@@ -24,6 +25,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
+    OTThemeManager *theme = [[OTThemeManager alloc] init];
+    
     [GMSServices provideAPIKey:@"AIzaSyD_CUNXVYT2JnCD1k4jnt3niRoIbV2p0zI"];
     NSString* uuid = [OTMobileIdentifier mobileID];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];

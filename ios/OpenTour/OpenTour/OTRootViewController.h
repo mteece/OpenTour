@@ -13,5 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
 @property (weak, nonatomic) IBOutlet UIButton *btnAroundMe;
+@property (weak, nonatomic) IBOutlet UIButton *btnMyTours;
+@property (weak, nonatomic) IBOutlet UIButton *btnTellMeAboutThis;
 
 @end

@@ -9,4 +9,6 @@
 /* Initial launch Welcome screen */
 "ROOT_VIEW_TITLE" = "Open Tour";
 
-"ROOT_VIEW_BUTTON_AROUND_ME_PROMPT" = "Around me.";
+"ROOT_VIEW_BUTTON_AROUND_ME_PROMPT" = "Around me";
+"ROOT_VIEW_BUTTON_MY_TOURS_PROMPT" = "My Tours";
+"ROOT_VIEW_BUTTON_TELL_ME_ABOUT_THIS_PROMPT" = "Tell me about this";

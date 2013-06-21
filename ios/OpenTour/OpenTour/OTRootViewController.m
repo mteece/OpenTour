@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Matthew Teece. All rights reserved.
 //
 #import "OTMapViewController.h"
+#import "OTAroundMeContainerViewController.h"
 
 #import "OTRootViewController.h"
 
@@ -112,6 +113,10 @@
 #pragma mark Class Selectors
 - (void)doAroundMe:(id)sender
 {
+    OTAroundMeContainerViewController *vc = [[OTAroundMeContainerViewController alloc] init];
+    // Set the next views navigation items.
+    vc.navigationItem.hidesBackButton = NO;
+    [[self navigationController] pushViewController:vc animated:YES];
 }
 
 - (void)doMyTours:(id)sender

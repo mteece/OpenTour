@@ -19,7 +19,7 @@
         NSArray *_waypoints;
 }
 
-static NSString *kMDDirectionsURL = @"https://maps.googleapis.com/maps/api/directions/json?";
+static NSString *kURLMapsDirectionsAPI = @"https://maps.googleapis.com/maps/api/directions/json?";
 
 - (void)setDirectionsQuery:(NSDictionary *)query withSelector:(SEL)selector withDelegate:(id)delegate
 {
@@ -29,7 +29,7 @@ static NSString *kMDDirectionsURL = @"https://maps.googleapis.com/maps/api/direc
     int destinationPos = waypointCount -1;
     NSString *destination = [waypoints objectAtIndex:destinationPos];
     NSString *sensor = [query objectForKey:@"sensor"];
-    NSMutableString *url = [NSMutableString stringWithFormat:@"%@&origin=%@&destination=%@&sensor=%@&mode=walking", kMDDirectionsURL,origin,destination, sensor];
+    NSMutableString *url = [NSMutableString stringWithFormat:@"%@&origin=%@&destination=%@&sensor=%@&mode=walking", kURLMapsDirectionsAPI,origin,destination, sensor];
     if(waypointCount>2) {
         [url appendString:@"&waypoints=optimize:true|"];
         for(int i=0;i <waypointCount; i++){

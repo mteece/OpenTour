@@ -10,6 +10,9 @@
 
 @interface OTTour : NSObject <NSCoding>
 {
-    
+        
 }
+
+@property (strong, nonatomic) NSMutableArray *waypoints;
+
 @end

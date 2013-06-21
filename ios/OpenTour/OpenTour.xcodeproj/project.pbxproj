@@ -34,6 +34,13 @@
 		54B599E6176E8C9B00ED8D18 /* OTWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E5176E8C9B00ED8D18 /* OTWaypoint.m */; };
 		54B599E9176E8CB500ED8D18 /* OTTour.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E8176E8CB500ED8D18 /* OTTour.m */; };
 		54B604DE1772500900DB0A1A /* OTThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604DD1772500900DB0A1A /* OTThemeManager.m */; };
+		54B604E11774BD7A00DB0A1A /* OTTourRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604E01774BD7A00DB0A1A /* OTTourRepository.m */; };
+		54B604E61774C15000DB0A1A /* OTAroundMeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604E51774C15000DB0A1A /* OTAroundMeContainerViewController.m */; };
+		54B604E91774C19500DB0A1A /* OTContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604E81774C19500DB0A1A /* OTContainerViewController.m */; };
+		54B604ED1774C48D00DB0A1A /* OTAroundMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604EB1774C48D00DB0A1A /* OTAroundMeTableViewController.m */; };
+		54B604EE1774C48D00DB0A1A /* OTAroundMeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B604EC1774C48D00DB0A1A /* OTAroundMeTableViewController.xib */; };
+		54B604F71774E17900DB0A1A /* OTAroundMeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B604F51774E17600DB0A1A /* OTAroundMeMapViewController.m */; };
+		54B604F81774E17900DB0A1A /* OTAroundMeMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B604F61774E17700DB0A1A /* OTAroundMeMapViewController.xib */; };
 		656D1E39DC264226A889B76E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D66CE5F170E4F699746636B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +99,18 @@
 		54B599E8176E8CB500ED8D18 /* OTTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTour.m; sourceTree = "<group>"; };
 		54B604DC1772500900DB0A1A /* OTThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTThemeManager.h; sourceTree = "<group>"; };
 		54B604DD1772500900DB0A1A /* OTThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTThemeManager.m; sourceTree = "<group>"; };
+		54B604DF1774BD7A00DB0A1A /* OTTourRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTourRepository.h; sourceTree = "<group>"; };
+		54B604E01774BD7A00DB0A1A /* OTTourRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTourRepository.m; sourceTree = "<group>"; };
+		54B604E41774C15000DB0A1A /* OTAroundMeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAroundMeContainerViewController.h; sourceTree = "<group>"; };
+		54B604E51774C15000DB0A1A /* OTAroundMeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAroundMeContainerViewController.m; sourceTree = "<group>"; };
+		54B604E71774C19500DB0A1A /* OTContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTContainerViewController.h; sourceTree = "<group>"; };
+		54B604E81774C19500DB0A1A /* OTContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTContainerViewController.m; sourceTree = "<group>"; };
+		54B604EA1774C48D00DB0A1A /* OTAroundMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAroundMeTableViewController.h; sourceTree = "<group>"; };
+		54B604EB1774C48D00DB0A1A /* OTAroundMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAroundMeTableViewController.m; sourceTree = "<group>"; };
+		54B604EC1774C48D00DB0A1A /* OTAroundMeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTAroundMeTableViewController.xib; sourceTree = "<group>"; };
+		54B604F41774E17600DB0A1A /* OTAroundMeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAroundMeMapViewController.h; sourceTree = "<group>"; };
+		54B604F51774E17600DB0A1A /* OTAroundMeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAroundMeMapViewController.m; sourceTree = "<group>"; };
+		54B604F61774E17700DB0A1A /* OTAroundMeMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTAroundMeMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +240,8 @@
 		542810931762265600739BB5 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				54B604E21774C11100DB0A1A /* Account */,
+				54B604E31774C11100DB0A1A /* AroundMe */,
 				542810941762267600739BB5 /* Maps */,
 			);
 			path = Interface;
@@ -280,6 +301,8 @@
 			children = (
 				542810AB1762751E00739BB5 /* OTDirectionRepository.h */,
 				542810AC1762751E00739BB5 /* OTDirectionRepository.m */,
+				54B604DF1774BD7A00DB0A1A /* OTTourRepository.h */,
+				54B604E01774BD7A00DB0A1A /* OTTourRepository.m */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -287,6 +310,8 @@
 		54B599D2176BB0E400ED8D18 /* Subclasses */ = {
 			isa = PBXGroup;
 			children = (
+				54B604E71774C19500DB0A1A /* OTContainerViewController.h */,
+				54B604E81774C19500DB0A1A /* OTContainerViewController.m */,
 			);
 			path = Subclasses;
 			sourceTree = "<group>";
@@ -359,6 +384,28 @@
 			children = (
 			);
 			path = iTunes;
+			sourceTree = "<group>";
+		};
+		54B604E21774C11100DB0A1A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		54B604E31774C11100DB0A1A /* AroundMe */ = {
+			isa = PBXGroup;
+			children = (
+				54B604E41774C15000DB0A1A /* OTAroundMeContainerViewController.h */,
+				54B604E51774C15000DB0A1A /* OTAroundMeContainerViewController.m */,
+				54B604EA1774C48D00DB0A1A /* OTAroundMeTableViewController.h */,
+				54B604EB1774C48D00DB0A1A /* OTAroundMeTableViewController.m */,
+				54B604EC1774C48D00DB0A1A /* OTAroundMeTableViewController.xib */,
+				54B604F41774E17600DB0A1A /* OTAroundMeMapViewController.h */,
+				54B604F51774E17600DB0A1A /* OTAroundMeMapViewController.m */,
+				54B604F61774E17700DB0A1A /* OTAroundMeMapViewController.xib */,
+			);
+			path = AroundMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +490,8 @@
 				542810911761222400739BB5 /* OTRootViewController.xib in Resources */,
 				542810A8176265AA00739BB5 /* dover-nh.gpx in Resources */,
 				542810A9176265AA00739BB5 /* portsmouth-nh.gpx in Resources */,
+				54B604EE1774C48D00DB0A1A /* OTAroundMeTableViewController.xib in Resources */,
+				54B604F81774E17900DB0A1A /* OTAroundMeMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +565,11 @@
 				54B599E6176E8C9B00ED8D18 /* OTWaypoint.m in Sources */,
 				54B599E9176E8CB500ED8D18 /* OTTour.m in Sources */,
 				54B604DE1772500900DB0A1A /* OTThemeManager.m in Sources */,
+				54B604E11774BD7A00DB0A1A /* OTTourRepository.m in Sources */,
+				54B604E61774C15000DB0A1A /* OTAroundMeContainerViewController.m in Sources */,
+				54B604E91774C19500DB0A1A /* OTContainerViewController.m in Sources */,
+				54B604ED1774C48D00DB0A1A /* OTAroundMeTableViewController.m in Sources */,
+				54B604F71774E17900DB0A1A /* OTAroundMeMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

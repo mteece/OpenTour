@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Matthew Teece. All rights reserved.
 //
 
-#import "OTDirectionRepository.h"
-
 #import <AFNetworking.h>
+
+#import "OTDirectionRepository.h"
 
 @implementation OTDirectionRepository
 {

@@ -94,6 +94,11 @@
 
 - (void)transitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController
 {
+    [self transitionFromViewController:fromViewController toViewController:toViewController withAnimation:UIViewAnimationOptionTransitionCurlDown];
+}
+
+- (void)transitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController withAnimation:(UIViewAnimationOptions)withAnimation
+{
 	if (fromViewController == toViewController)
 	{
 		// cannot transition to same
@@ -115,7 +120,7 @@
 	[self transitionFromViewController:fromViewController
 					  toViewController:toViewController
 							  duration:1.0
-							   options:UIViewAnimationOptionTransitionCurlDown
+							   options:withAnimation
 							animations:^{
 							}
 							completion:^(BOOL finished) {

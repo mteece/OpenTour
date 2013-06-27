@@ -17,5 +17,5 @@
 @property (nonatomic, retain) UIViewController *selectedViewController;
 
 - (void)transitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController;
-
+- (void)transitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController withAnimation:(UIViewAnimationOptions)withAnimation;
 @end

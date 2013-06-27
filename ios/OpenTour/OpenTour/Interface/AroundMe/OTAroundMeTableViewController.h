@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface OTAroundMeTableViewController : UITableViewController
-
+{
+    NSMutableArray *waypoints_;
+}
 @end

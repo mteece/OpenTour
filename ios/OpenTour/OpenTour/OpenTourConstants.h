@@ -15,6 +15,14 @@
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
+#define SuppressPerformSelectorLeakWarning(Selector) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Selector; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
 #define kDeviceId @"device_id_setting"
 #define kDeviceApiKey @"device_api_key"
 

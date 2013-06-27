@@ -63,6 +63,9 @@ static NSString *kURLMapsDirectionsAPI = @"https://maps.googleapis.com/maps/api/
 
 - (void)fetchedData:(NSDictionary *)data withSelector:(SEL)selector withDelegate:(id)delegate
 {    
-    [delegate performSelector:selector withObject:data];
+    /*SuppressPerformSelectorLeakWarning(
+                                       [delegate performSelector:selector withObject:data];
+                                       );*/
+     [delegate performSelector:selector withObject:data afterDelay:0.0];
 }
 @end

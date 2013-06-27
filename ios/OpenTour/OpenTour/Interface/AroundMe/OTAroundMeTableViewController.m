@@ -5,6 +5,9 @@
 //  Created by Matthew Teece on 6/21/13.
 //  Copyright (c) 2013 Matthew Teece. All rights reserved.
 //
+#import <GoogleMaps/GoogleMaps.h>
+
+#import "OTTourRepository.h"
 
 #import "OTAroundMeTableViewController.h"
 
@@ -33,7 +36,29 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    waypoints_ = [[NSMutableArray alloc] init];
+    
     [self setTitle:NSLocalizedString(@"AROUND_ME_VIEW_TITLE", nil)];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    OTTourRepository *tr = [[OTTourRepository alloc] init];
+    SEL selector = @selector(addTours:);
+    NSDictionary *tmp = [[NSDictionary alloc] init]; // TODO: not needed yet.
+    
+    [tr setTourQuery:tmp
+        withSelector:selector
+        withDelegate:self];
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    
+    [waypoints_ removeAllObjects];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,31 +67,44 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Class Methods
+
+- (void)addTours:(NSDictionary *)json
+{
+    waypoints_ = [json valueForKey:@"waypoints"];
+    [self.tableView reloadData];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
+    if (waypoints_) return waypoints_.count;
+    
     return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"OTWayPointCell";
+    GMSMarker *waypoint = [waypoints_ objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
     
-    // Configure the cell...
+    // Configure the cell.
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.imageView.image = [UIImage imageNamed:@"Pointy.gif"];
+    cell.textLabel.text = [waypoint title];
+    cell.detailTextLabel.text = [waypoint snippet];
     
     return cell;
 }

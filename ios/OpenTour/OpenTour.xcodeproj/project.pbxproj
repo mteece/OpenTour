@@ -29,6 +29,7 @@
 		542810A8176265AA00739BB5 /* dover-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A6176265AA00739BB5 /* dover-nh.gpx */; };
 		542810A9176265AA00739BB5 /* portsmouth-nh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 542810A7176265AA00739BB5 /* portsmouth-nh.gpx */; };
 		542810AD1762751E00739BB5 /* OTDirectionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 542810AC1762751E00739BB5 /* OTDirectionRepository.m */; };
+		546605B3177CB8FB00632C9B /* OTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 546605B2177CB8FB00632C9B /* OTAPIClient.m */; };
 		54B599E2176D156A00ED8D18 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599DF176D156A00ED8D18 /* NSDate+Utilities.m */; };
 		54B599E3176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E1176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.m */; };
 		54B599E6176E8C9B00ED8D18 /* OTWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B599E5176E8C9B00ED8D18 /* OTWaypoint.m */; };
@@ -89,6 +90,8 @@
 		542810A7176265AA00739BB5 /* portsmouth-nh.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "portsmouth-nh.gpx"; sourceTree = "<group>"; };
 		542810AB1762751E00739BB5 /* OTDirectionRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDirectionRepository.h; sourceTree = "<group>"; };
 		542810AC1762751E00739BB5 /* OTDirectionRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDirectionRepository.m; sourceTree = "<group>"; };
+		546605B1177CB8FB00632C9B /* OTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAPIClient.h; sourceTree = "<group>"; };
+		546605B2177CB8FB00632C9B /* OTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAPIClient.m; sourceTree = "<group>"; };
 		54B599DE176D156A00ED8D18 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
 		54B599DF176D156A00ED8D18 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
 		54B599E0176D156A00ED8D18 /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 			children = (
 				54B604E71774C19500DB0A1A /* OTContainerViewController.h */,
 				54B604E81774C19500DB0A1A /* OTContainerViewController.m */,
+				546605B1177CB8FB00632C9B /* OTAPIClient.h */,
+				546605B2177CB8FB00632C9B /* OTAPIClient.m */,
 			);
 			path = Subclasses;
 			sourceTree = "<group>";
@@ -570,6 +575,7 @@
 				54B604E91774C19500DB0A1A /* OTContainerViewController.m in Sources */,
 				54B604ED1774C48D00DB0A1A /* OTAroundMeTableViewController.m in Sources */,
 				54B604F71774E17900DB0A1A /* OTAroundMeMapViewController.m in Sources */,
+				546605B3177CB8FB00632C9B /* OTAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +631,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Teece (EX9B3P3YLN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthew Teece (EX9B3P3YLN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -640,7 +646,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "23ACFE5E-4798-4305-AA41-A2680B9624E3";
+				PROVISIONING_PROFILE = "FDC9E15D-CA5A-4C0C-B45B-693A6F49687B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDC9E15D-CA5A-4C0C-B45B-693A6F49687B";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 			};
@@ -660,7 +667,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Teece (EX9B3P3YLN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthew Teece (EX9B3P3YLN)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -668,7 +675,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "23ACFE5E-4798-4305-AA41-A2680B9624E3";
+				PROVISIONING_PROFILE = "FDC9E15D-CA5A-4C0C-B45B-693A6F49687B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDC9E15D-CA5A-4C0C-B45B-693A6F49687B";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = armv7;

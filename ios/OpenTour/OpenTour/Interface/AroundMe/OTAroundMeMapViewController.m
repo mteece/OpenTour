@@ -40,8 +40,47 @@
     
     waypoints_ = [[NSMutableArray alloc] init];
     
+    // TODO: Camera Position is deterined by where the user is.
+    // Create a GMSCameraPosition that tells the map to display the
+    // coordinate -70.749856 at zoom level 6.
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:43.071482
+                                                            longitude:-70.749856
+                                                                 zoom:5];
+    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView_.myLocationEnabled = YES;
+    mapView_.settings.compassButton = YES;
+    mapView_.settings.myLocationButton = YES;
+    mapView_.settings.tiltGestures = YES;
+    self.view = mapView_;
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     // Once we have points discover location.
-    [self startDiscoveryOfLocation];
+    
+    OTTourRepository *tr = [[OTTourRepository alloc] init];
+    SEL selector = @selector(addTours:);
+    NSDictionary *tmp = [[NSDictionary alloc] init]; // TODO: not needed yet.
+    
+    [tr setTourQuery:tmp
+        withSelector:selector
+        withDelegate:self];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    [mapView_ clear];
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    
+    [waypoints_ removeAllObjects];
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,28 +97,34 @@
 #pragma mark -
 #pragma mark Class Methods
 
+- (void)addTours:(NSDictionary *)json
+{
+    waypoints_ = [json valueForKey:@"waypoints"];
+    
+    if ([waypoints_ count] > 0) {
+        for (GMSMarker *m in waypoints_) {
+             m.map = mapView_;
+        }
+    }
+    
+    [self startDiscoveryOfLocation];
+}
+
 - (void)startDiscoveryOfLocation
 {
     locationManager_ = [[CLLocationManager alloc] init];
     [locationManager_ setDelegate:self];
-    [locationManager_ setDistanceFilter:kCLDistanceFilterNone];
-    [locationManager_ setDesiredAccuracy:kCLLocationAccuracyBest];
+    [locationManager_ setDistanceFilter:100.0f];
+    [locationManager_ setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
     [locationManager_ startUpdatingLocation];
 }
 
 - (void)didDiscoverLocation:(CLLocation *)location
 {
-    // Zoom in one zoom level
-    /*GMSCameraUpdate *zoomCamera = [GMSCameraUpdate zoomTo:16];
-    [mapView_ animateWithCameraUpdate:zoomCamera];
-    
     // Center the camera on CCLocation coordinate.
-    GMSCameraUpdate *locationCam = [GMSCameraUpdate setTarget:[location coordinate]];
+    GMSCameraUpdate *locationCam = [GMSCameraUpdate setTarget:[location coordinate] zoom:18];
     [mapView_ animateWithCameraUpdate:locationCam];
-    */
-    // Move the camera 100 points down, and 200 points to the right.
-    //GMSCameraUpdate *downwards = [GMSCameraUpdate scrollByX:100 Y:200];
-    //[mapView_ animateWithCameraUpdate:downwards];
+    
 }
 
 #pragma mark -
@@ -107,7 +152,7 @@
         if (newLocation.horizontalAccuracy <= locationManager_.desiredAccuracy) {
             // We have a measurement that meets our requirements, so we can stop updating the location
             // IMPORTANT!!! Minimize power usage by stopping the location manager as soon as possible.
-            // [locationManager_ stopUpdatingLocation];
+            [locationManager_ stopUpdatingLocation];
         }
     }
     

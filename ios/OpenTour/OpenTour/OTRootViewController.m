@@ -16,6 +16,7 @@
 
 @implementation OTRootViewController
 
+@synthesize baseHeight;
 @synthesize scrollView;
 @synthesize lblTitle;
 @synthesize btnAroundMe, btnMyTours, btnTellMeAboutThis;
@@ -100,6 +101,31 @@
 
 #pragma mark -
 #pragma mark Class Methods
+
+- (void) setContentSize
+{
+    CGRect frame = CGRectZero;
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    baseHeight = screenBounds.size.height;
+    if (screenBounds.size.height == 568) {
+        // code for 4-inch screen
+        baseHeight = 568;
+        frame = CGRectMake(scrollView.frame.origin.x,
+                           0,
+                           scrollView.frame.size.width,
+                           baseHeight
+                           );
+    } else {
+        // code for 3.5-inch screen
+        frame = CGRectMake(scrollView.frame.origin.x,
+                           0,
+                           scrollView.frame.size.width,
+                           baseHeight
+                           );
+    }
+    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    scrollView.frame = frame;
+}
 
 - (void)localizeView
 {

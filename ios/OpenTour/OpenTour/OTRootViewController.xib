@@ -76,7 +76,7 @@
 							<object class="IBUIButton" id="836162271">
 								<reference key="NSNextResponder" ref="1054581258"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{89, 326}, {143, 43}}</string>
+								<string key="NSFrame">{{89, 261}, {143, 43}}</string>
 								<reference key="NSSuperview" ref="1054581258"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="69677137"/>
@@ -112,7 +112,7 @@
 							<object class="IBUIButton" id="69677137">
 								<reference key="NSNextResponder" ref="1054581258"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{89, 373}, {143, 43}}</string>
+								<string key="NSFrame">{{89, 308}, {143, 43}}</string>
 								<reference key="NSSuperview" ref="1054581258"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="544743376"/>
@@ -135,7 +135,7 @@
 							<object class="IBUIButton" id="544743376">
 								<reference key="NSNextResponder" ref="1054581258"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{89, 418.5}, {143, 43}}</string>
+								<string key="NSFrame">{{89, 353}, {143, 43}}</string>
 								<reference key="NSSuperview" ref="1054581258"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
@@ -156,7 +156,7 @@
 								<reference key="IBUIFont" ref="560806344"/>
 							</object>
 						</array>
-						<string key="NSFrameSize">{320, 548}</string>
+						<string key="NSFrameSize">{320, 460}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="369085981"/>
@@ -166,7 +166,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 				</array>
-				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
+				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="1054581258"/>
@@ -178,22 +178,9 @@
 					</object>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics">
-					<string key="IBUISimulatedSizeMetricsClass">IBUIScreenMetrics</string>
-					<object class="NSMutableDictionary" key="IBUINormalizedOrientationToSizeMap">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<array key="dict.sortedKeys">
-							<integer value="1"/>
-							<integer value="3"/>
-						</array>
-						<array key="dict.values">
-							<string>{320, 568}</string>
-							<string>{568, 320}</string>
-						</array>
-					</object>
-					<string key="IBUITargetRuntime">IBCocoaTouchFramework</string>
-					<string key="IBUIDisplayName">Retina 4 Full Screen</string>
-					<int key="IBUIType">2</int>
+				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
+					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
+					<string key="IBUIDisplayName">Freeform</string>
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>

@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface OTRootViewController : UIViewController <UIScrollViewDelegate>
+{
+    int baseHeight;
+}
+
+@property (assign) int baseHeight;
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;

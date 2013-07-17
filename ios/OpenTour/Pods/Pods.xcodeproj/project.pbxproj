@@ -1,3402 +1,1132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>021E622CC6844924BE614A13</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DF20E2406E245BD933B8B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>035245AAD00C4059B7F91A4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>05257E9F5870432689F65225</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2BFC216C8EB46998A92F3D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0561A842CFE94459A1ECDF9D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>970B83347F934A018F8BE5B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>065E2BAA8D5E4F0E8D5F8C97</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9172D8D637134C25B3938327</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Google-Maps-iOS-SDK-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>067AC5ED94F44689A20737C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSGroundOverlay.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGroundOverlay.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0725068AA3DF4F5B8982D745</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F9DCB04D99884964AF93AB9E</string>
-				<string>BEFFE2498828479783387F90</string>
-				<string>8FD8D78C4D0C4F958C685641</string>
-				<string>ABBF6FDB3B344C258E012272</string>
-				<string>ACF1D99DF9F246CE8716A96A</string>
-				<string>7FC905ED35B94ADC90F16249</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>087529CD980D4A24AAA9871D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Reachability.h</string>
-			<key>path</key>
-			<string>Reachability/Reachability.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>08DEDDA0382F4DEBA8384765</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67EAA3F262974ABBA972EEF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>08F88AF4971C4D3680C55365</key>
-		<dict>
-			<key>fileRef</key>
-			<string>375D700F453D4D128B554A3F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>097559B66A654D909C6557A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6462C4B5F48457DB659DA70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0B5C76E71A1D48CE927DFBE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSOrientation.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0D47912E74AB4DE385C84F56</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanoramaCamera.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCamera.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0D48F523B08E48B58A75DF23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD18AD6937EA4B3484DCE8A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0F973960EDD6487CB3813860</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A259C6F1FBEE430588FD3CD8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F8212F662A0B4CC8A50944E4</string>
-			<key>remoteInfo</key>
-			<string>Pods-Reachability</string>
-		</dict>
-		<key>1198CF91D9CD41D69CE43E73</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F2431C025834C2E8C82B57B</string>
-				<string>9172D8D637134C25B3938327</string>
-				<string>FD68067E497044CD9A972BE5</string>
-				<string>15A1900351E544DC80F81447</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Google-Maps-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1242CB23DF5641EB943B1658</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5CA6E2DD66834661ABB3B483</string>
-				<string>4E5C9B4428694EAAABFE88BB</string>
-				<string>5D996D0B77D74ADE83360BAF</string>
-				<string>3B9F613AE65F47CD8C8655FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Reachability</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12478BB03D0044448FD1C672</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9697E98374F042E5A57911A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13D543184B5E4890AB8E6DFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Base64.m</string>
-			<key>path</key>
-			<string>Base64nl/Base64/Base64.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1455F5C42E9444DCBE41D918</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67EAA3F262974ABBA972EEF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1503FC23F98C4C92A093ED44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9EAABFD6063E4E1D80721ADA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>15A1900351E544DC80F81447</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Google-Maps-iOS-SDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>15EBE93B5A5C4859A575F699</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1635D950D6434E4B8AE00138</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-AFNetworking.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>165B83B358D64714A7F55848</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75CEED4FA0EE410EAC859F58</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>17DA6152D0824FAC9B9FF1F6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3DDF9100089949A389891C57</string>
-			<key>buildPhases</key>
-			<array>
-				<string>507AFE2A16EC423099288B87</string>
-				<string>AC9286B09F9A44FF9E1F4B6B</string>
-				<string>3C43075651FA4BC39478211E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Base64nl</string>
-			<key>productName</key>
-			<string>Pods-Base64nl</string>
-			<key>productReference</key>
-			<string>B21E3544DE0149A099BF7699</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>1B94103FE46C4F96B606302B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPolygon.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPolygon.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1DF20E2406E245BD933B8B68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1F576FFC561C466B9CF9B6FF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BDD8B7A4BF7F4DEF9EE12B2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>204375DCB36C4AE4B6627F04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Reachability.m</string>
-			<key>path</key>
-			<string>Reachability/Reachability.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>265459619E4E480185ADA6D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C548F119ACF44538F7F1CE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>26A27507E52F44B3A23AE2B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31F9F0473031423486193868</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>26F40C03651E4DAFBAEDCA43</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A0F6583CDB674DA891336118</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27E00D6A25FE42D69EB67C92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMapView+Overlays.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Overlays.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2850F927E4AD4C94B4C40CFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>29A528736CE142048498C819</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2B6F15E1E73049E58319D85A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2F2431C025834C2E8C82B57B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Google-Maps-iOS-SDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>308A0A3425F2461CB11BE578</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7514277785CB45239D29E3C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>31F9F0473031423486193868</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>341416D05A144187AF9C3899</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1455F5C42E9444DCBE41D918</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>34CA0E7E77DF45599BE5C243</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AVFoundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>35715092B00145729FC4A779</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A259C6F1FBEE430588FD3CD8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>17DA6152D0824FAC9B9FF1F6</string>
-			<key>remoteInfo</key>
-			<string>Pods-Base64nl</string>
-		</dict>
-		<key>35C538CC050A411F8CD10644</key>
-		<dict>
-			<key>fileRef</key>
-			<string>434888240AAB4E9DBAD862AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36D5FC2DEC784A00B1DD2E95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>375D700F453D4D128B554A3F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Google-Maps-iOS-SDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>380F4469A14F443FB03DFF28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Base64nl-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>386A0B6E8FB44967B5354B1A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67EAA3F262974ABBA972EEF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>39DF8E870A144417B61F8A87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D936B3DEED34313B589FD6A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3A10A4E1B0AE46EAB2B2C6D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3B5D32C255DD4EF599A3C9A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BF26B2DA11B4F0EB3A752C0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B9F613AE65F47CD8C8655FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Reachability-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3C40AB68CF2D4E4C9547A4F1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61CEE79F6A6C4E4394437FEF</string>
-				<string>ADB2295F6BE14204B724DD9D</string>
-				<string>52BE6D897B664B1DBDE59160</string>
-				<string>830F67AE1F514425BA28F4E8</string>
-				<string>733FAC3E2DD74587B6ACD393</string>
-				<string>A643664D821D4EFF86D44209</string>
-				<string>2850F927E4AD4C94B4C40CFA</string>
-				<string>A6462C4B5F48457DB659DA70</string>
-				<string>035245AAD00C4059B7F91A4E</string>
-				<string>80ABAF4314D54E409910F3A2</string>
-				<string>7986210C78394ACBA4D8404A</string>
-				<string>15EBE93B5A5C4859A575F699</string>
-				<string>75CEED4FA0EE410EAC859F58</string>
-				<string>D6C52FD5F3FF43C884FE7D92</string>
-				<string>9840728734AC45F4ABDA2D67</string>
-				<string>8F16607A4C464CC7B07CBA12</string>
-				<string>1DF20E2406E245BD933B8B68</string>
-				<string>31F9F0473031423486193868</string>
-				<string>97767AAF97B64B159BDA1826</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C43075651FA4BC39478211E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CB63F8C7DB3A45CA82579E8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C5F19A9B9A047C9B2F3E0F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSGeocoder.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGeocoder.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3D9F9CD7815D4BDD9615A3D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6360FBD1D1E348B1A34260D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DDF9100089949A389891C57</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6A0D62E3C3B14559A5C97388</string>
-				<string>74CB6D8AF0794BF18A907950</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>413A41ED0D0E4CA2A645B873</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9426C7312D7D4AD78A4C97CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>415DBB49682D4BCA817CE57E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>554619ED1DC94BFEAAD4D3C3</string>
-				<string>FF91122CB63A4B20864DBB1A</string>
-				<string>8F2F75EEECDC4E0980D191BD</string>
-				<string>F70FAAC6EA294AA3B2D78553</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>434888240AAB4E9DBAD862AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPath.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPath.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>444CE30CF4EE47D6908B3A7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>655784CF8F024A129B4EAD48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>44930E1792FD454CBA5D3031</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7BE8B33C9A95423BAC75C796</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Google-Maps-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4676FE2AAD474640B24F10F9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5CD6C5342BFC4C5BB219491E</string>
-				<string>2B6F15E1E73049E58319D85A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E5C9B4428694EAAABFE88BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Reachability-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>507AFE2A16EC423099288B87</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>75CD1579EB9444939329F93D</string>
-				<string>3B5D32C255DD4EF599A3C9A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52BE6D897B664B1DBDE59160</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>53880418BB6B4B15BAADEDE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>554619ED1DC94BFEAAD4D3C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFNetworking.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>56430FAFABA34BF2929971C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>97767AAF97B64B159BDA1826</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>56AD94D1F4984DA8A73AED74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSOverlay.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSOverlay.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5720B1EB3A7144318F14290A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64E329255F2C4288B220BDD3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CA6E2DD66834661ABB3B483</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Reachability.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5CB0A2A8387F49E983975B6F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>415DBB49682D4BCA817CE57E</string>
-				<string>B01DCE0ED991440796E87542</string>
-				<string>1198CF91D9CD41D69CE43E73</string>
-				<string>1242CB23DF5641EB943B1658</string>
-				<string>0725068AA3DF4F5B8982D745</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CD6C5342BFC4C5BB219491E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5CF21DC78DEF403E8E715114</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E5C9B4428694EAAABFE88BB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Reachability-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5D996D0B77D74ADE83360BAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Reachability-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>60E11993155E4D60A2CEFFF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B9F613AE65F47CD8C8655FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61CEE79F6A6C4E4394437FEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPClient.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6360FBD1D1E348B1A34260D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMarker.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMarker.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>64E329255F2C4288B220BDD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanorama.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanorama.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>655784CF8F024A129B4EAD48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPolyline.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPolyline.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>65BDC56EC25B4BC68C5B5448</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>17DA6152D0824FAC9B9FF1F6</string>
-			<key>targetProxy</key>
-			<string>35715092B00145729FC4A779</string>
-		</dict>
-		<key>67EAA3F262974ABBA972EEF6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6A0D62E3C3B14559A5C97388</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>380F4469A14F443FB03DFF28</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Base64nl-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6A704F12BF8448F5A00E3083</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5901AA48A2242F3AB822870</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6BF26B2DA11B4F0EB3A752C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Base64nl-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6C02BADB767C432283F306FB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F9DCB04D99884964AF93AB9E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6D936B3DEED34313B589FD6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSUISettings.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6FA8731F5F444F859279FB56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>733FAC3E2DD74587B6ACD393</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>726639B07C544EA2B555C3E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C5F19A9B9A047C9B2F3E0F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>72772E32B30E4B3D83AC5753</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A2BA2A6E7226411A8A13E9EE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0561A842CFE94459A1ECDF9D</string>
-				<string>C96C0F07D876452C9DB92B87</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B00B71F5AE5B41C39C7A73C1</string>
-				<string>65BDC56EC25B4BC68C5B5448</string>
-				<string>7F90C19DD7704CC7A02DAF65</string>
-				<string>BAF31ACBDA424A9CB3FD7369</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>29A528736CE142048498C819</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>733FAC3E2DD74587B6ACD393</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>74CB6D8AF0794BF18A907950</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>380F4469A14F443FB03DFF28</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Base64nl-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7514277785CB45239D29E3C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15A1900351E544DC80F81447</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>75CD1579EB9444939329F93D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13D543184B5E4890AB8E6DFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>75CEED4FA0EE410EAC859F58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>783786D8A0804D8E83EA0768</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>810ABCAC73024227BF046542</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D5E6C0AEDB3849329778F744</string>
-				<string>F2F7581C57A84F6FB586694D</string>
-				<string>E1EF6D7CDE2F49A4A88C21A9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AFNetworking</string>
-			<key>productName</key>
-			<string>Pods-AFNetworking</string>
-			<key>productReference</key>
-			<string>1635D950D6434E4B8AE00138</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>792234B0316D42E7B46BA566</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Base64nl-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7986210C78394ACBA4D8404A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7A9397C72B1844F2A4961E4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>7AE7C819889E4734A346C8CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMapView+Animation.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Animation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7AF2E5972F8E44E9B8A0B36E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6C52FD5F3FF43C884FE7D92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B28F9F0600642AE8A581027</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F0609D86D5C0479CA5D028DA</string>
-				<string>1503FC23F98C4C92A093ED44</string>
-				<string>EC0253CD8316495EA4E9228B</string>
-				<string>A9CDE32845AB4E21B203B881</string>
-				<string>726639B07C544EA2B555C3E5</string>
-				<string>265459619E4E480185ADA6D3</string>
-				<string>E8D4EB634F3E4FB696435338</string>
-				<string>05257E9F5870432689F65225</string>
-				<string>C504AA9730EE40F3B50BFDAA</string>
-				<string>FA5BDC2AD24146AF9B2D2CBE</string>
-				<string>B783541CFA94419CA3A34643</string>
-				<string>3D9F9CD7815D4BDD9615A3D8</string>
-				<string>9D5FB7FE52DB4EF78B4910E0</string>
-				<string>D8BF3DADC5CA4751B16B4B3E</string>
-				<string>EE1770C99272484193910C75</string>
-				<string>5720B1EB3A7144318F14290A</string>
-				<string>D47D0AF2F7794C72A82FA278</string>
-				<string>83399FF8A3A84FCF90F03622</string>
-				<string>91AB83B2765F49BD9DCCE8B1</string>
-				<string>6A704F12BF8448F5A00E3083</string>
-				<string>DCF965658162453A940E5F9E</string>
-				<string>35C538CC050A411F8CD10644</string>
-				<string>857182B69E8244C08839EC11</string>
-				<string>444CE30CF4EE47D6908B3A7B</string>
-				<string>0D48F523B08E48B58A75DF23</string>
-				<string>98ACE44544CE48AFBAB3963D</string>
-				<string>26F40C03651E4DAFBAEDCA43</string>
-				<string>12478BB03D0044448FD1C672</string>
-				<string>C254589AFDB245DBB5F9D5CD</string>
-				<string>39DF8E870A144417B61F8A87</string>
-				<string>E0B17A1356134BF4BB5EA7CB</string>
-				<string>413A41ED0D0E4CA2A645B873</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7B30ED8EC6A14062B49B2E55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSCoordinateBounds.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCoordinateBounds.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7BE8B33C9A95423BAC75C796</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>GoogleMaps.bundle</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7F90C19DD7704CC7A02DAF65</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9B6C77AE03024CF9A6B0E52D</string>
-			<key>targetProxy</key>
-			<string>F6524E8842E14EA28098704F</string>
-		</dict>
-		<key>7FC905ED35B94ADC90F16249</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>80ABAF4314D54E409910F3A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>810ABCAC73024227BF046542</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>ECCB37A0A6FB48638DD4A3E2</string>
-				<string>D6DB600F323147AC9562C26E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>811A2E73316D41AA87EB434A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67EAA3F262974ABBA972EEF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>81C43F857E0E402D9E366476</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSTileLayer.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSTileLayer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>823708A1298C417EB1865405</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreLocation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreLocation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>830F67AE1F514425BA28F4E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>83399FF8A3A84FCF90F03622</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDD6F33375AD4D89BFFF87AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>857182B69E8244C08839EC11</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B94103FE46C4F96B606302B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8623C4BF11B447E281BCC494</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1635D950D6434E4B8AE00138</string>
-				<string>B21E3544DE0149A099BF7699</string>
-				<string>375D700F453D4D128B554A3F</string>
-				<string>997C7A8A07404B01A8051A17</string>
-				<string>29A528736CE142048498C819</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D36886921944C978EC7A6E5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9172D8D637134C25B3938327</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Google-Maps-iOS-SDK-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8F16607A4C464CC7B07CBA12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8F2F75EEECDC4E0980D191BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AFNetworking-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8FD8D78C4D0C4F958C685641</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9172D8D637134C25B3938327</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Google-Maps-iOS-SDK-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>91AB83B2765F49BD9DCCE8B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F42B5B2E53740B4A1F0B53A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9426C7312D7D4AD78A4C97CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GoogleMaps.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GoogleMaps.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>945DC7D2A02F4335AF4498C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Base64.h</string>
-			<key>path</key>
-			<string>Base64nl/Base64/Base64.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9697E98374F042E5A57911A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSSyncTileLayer.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSSyncTileLayer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>970B83347F934A018F8BE5B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7FC905ED35B94ADC90F16249</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97767AAF97B64B159BDA1826</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9840728734AC45F4ABDA2D67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>98419B5C93CD456CBC758DE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80ABAF4314D54E409910F3A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>98ACE44544CE48AFBAB3963D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE821A8ABE454093A73D2DE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>997C7A8A07404B01A8051A17</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Reachability.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9A1999F274B74662A0260744</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7986210C78394ACBA4D8404A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A45D8641431452F94B872DD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>065E2BAA8D5E4F0E8D5F8C97</string>
-				<string>8D36886921944C978EC7A6E5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9A9388DAB3A14707BAAAFB56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>035245AAD00C4059B7F91A4E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A97A1834A184908BE103141</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>9B6C77AE03024CF9A6B0E52D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9A45D8641431452F94B872DD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>308A0A3425F2461CB11BE578</string>
-				<string>341416D05A144187AF9C3899</string>
-				<string>7B28F9F0600642AE8A581027</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Google-Maps-iOS-SDK</string>
-			<key>productName</key>
-			<string>Pods-Google-Maps-iOS-SDK</string>
-			<key>productReference</key>
-			<string>375D700F453D4D128B554A3F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9C00FB6C41714DD6877B7AE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSCameraPosition.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCameraPosition.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9C548F119ACF44538F7F1CE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSGeometryUtils.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGeometryUtils.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9D41AB2E7C99446BB90B68A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMapView.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9D5FB7FE52DB4EF78B4910E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDD6391236564F6DB57A2184</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EAABFD6063E4E1D80721ADA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSCameraUpdate.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9F20B272683745018CF18A68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSCircle.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCircle.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9F42B5B2E53740B4A1F0B53A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanoramaLink.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A0F6583CDB674DA891336118</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSServices.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSServices.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A259C6F1FBEE430588FD3CD8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4676FE2AAD474640B24F10F9</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E70AF777118840AE8F4B063B</string>
-			<key>productRefGroup</key>
-			<string>8623C4BF11B447E281BCC494</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>783786D8A0804D8E83EA0768</string>
-				<string>17DA6152D0824FAC9B9FF1F6</string>
-				<string>9B6C77AE03024CF9A6B0E52D</string>
-				<string>F8212F662A0B4CC8A50944E4</string>
-				<string>72772E32B30E4B3D83AC5753</string>
-			</array>
-		</dict>
-		<key>A2BA2A6E7226411A8A13E9EE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FFE7A04626F84DC8B50805E8</string>
-				<string>6C02BADB767C432283F306FB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A50D184AD1C34248BD367644</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C00FB6C41714DD6877B7AE2</string>
-				<string>9EAABFD6063E4E1D80721ADA</string>
-				<string>9F20B272683745018CF18A68</string>
-				<string>7B30ED8EC6A14062B49B2E55</string>
-				<string>3C5F19A9B9A047C9B2F3E0F0</string>
-				<string>9C548F119ACF44538F7F1CE4</string>
-				<string>067AC5ED94F44689A20737C8</string>
-				<string>F2BFC216C8EB46998A92F3D2</string>
-				<string>7AE7C819889E4734A346C8CE</string>
-				<string>27E00D6A25FE42D69EB67C92</string>
-				<string>9D41AB2E7C99446BB90B68A4</string>
-				<string>6360FBD1D1E348B1A34260D1</string>
-				<string>FDD6391236564F6DB57A2184</string>
-				<string>0B5C76E71A1D48CE927DFBE2</string>
-				<string>56AD94D1F4984DA8A73AED74</string>
-				<string>64E329255F2C4288B220BDD3</string>
-				<string>0D47912E74AB4DE385C84F56</string>
-				<string>EDD6F33375AD4D89BFFF87AB</string>
-				<string>9F42B5B2E53740B4A1F0B53A</string>
-				<string>B5901AA48A2242F3AB822870</string>
-				<string>EEB9704FACB44ABFBDAC938C</string>
-				<string>434888240AAB4E9DBAD862AA</string>
-				<string>1B94103FE46C4F96B606302B</string>
-				<string>655784CF8F024A129B4EAD48</string>
-				<string>FD18AD6937EA4B3484DCE8A0</string>
-				<string>CE821A8ABE454093A73D2DE0</string>
-				<string>A0F6583CDB674DA891336118</string>
-				<string>9697E98374F042E5A57911A0</string>
-				<string>81C43F857E0E402D9E366476</string>
-				<string>6D936B3DEED34313B589FD6A</string>
-				<string>EF873DD287CC44A9BA3614F9</string>
-				<string>9426C7312D7D4AD78A4C97CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Google-Maps-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A643664D821D4EFF86D44209</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A6462C4B5F48457DB659DA70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A77EE5F0C609470C80455228</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A259C6F1FBEE430588FD3CD8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>783786D8A0804D8E83EA0768</string>
-			<key>remoteInfo</key>
-			<string>Pods-AFNetworking</string>
-		</dict>
-		<key>A9CDE32845AB4E21B203B881</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B30ED8EC6A14062B49B2E55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABBF6FDB3B344C258E012272</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AC9286B09F9A44FF9E1F4B6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>811A2E73316D41AA87EB434A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ACF1D99DF9F246CE8716A96A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AD9BB60163424D43A6D88A5B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>087529CD980D4A24AAA9871D</string>
-				<string>204375DCB36C4AE4B6627F04</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Reachability</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ADB2295F6BE14204B724DD9D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPClient.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>ADD88405D308409DB2544FA1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>44930E1792FD454CBA5D3031</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE812FFF321842FAB2205017</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15EBE93B5A5C4859A575F699</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B00B71F5AE5B41C39C7A73C1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>783786D8A0804D8E83EA0768</string>
-			<key>targetProxy</key>
-			<string>A77EE5F0C609470C80455228</string>
-		</dict>
-		<key>B01DCE0ED991440796E87542</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF739D7C11BE401DBCC28588</string>
-				<string>380F4469A14F443FB03DFF28</string>
-				<string>792234B0316D42E7B46BA566</string>
-				<string>6BF26B2DA11B4F0EB3A752C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Base64nl</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0CEAD458F284C46900E04F8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C40AB68CF2D4E4C9547A4F1</string>
-				<string>E017A62180F94B32BD1D152F</string>
-				<string>A50D184AD1C34248BD367644</string>
-				<string>AD9BB60163424D43A6D88A5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B1540D5484D9423482F98932</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2850F927E4AD4C94B4C40CFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B170E3CDFA5E44F1B43B425E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>OpenGLES.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B21E3544DE0149A099BF7699</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Base64nl.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B2A94BEC985949C282899A62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F16607A4C464CC7B07CBA12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B37151CE88214CA19741EB0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52BE6D897B664B1DBDE59160</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B5901AA48A2242F3AB822870</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanoramaService.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaService.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B601E071663E49749959364D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9840728734AC45F4ABDA2D67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B67A0B66B8FE4D76A3FA4163</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleMaps.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GoogleMaps.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B783541CFA94419CA3A34643</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D41AB2E7C99446BB90B68A4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BAF31ACBDA424A9CB3FD7369</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>F8212F662A0B4CC8A50944E4</string>
-			<key>targetProxy</key>
-			<string>0F973960EDD6487CB3813860</string>
-		</dict>
-		<key>BAF86C56A0CC4E1FB7AA5114</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5CF21DC78DEF403E8E715114</string>
-				<string>DEC63280C3B848DD92D39C76</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BDD8B7A4BF7F4DEF9EE12B2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>087529CD980D4A24AAA9871D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BEFFE2498828479783387F90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BFDF8B63D22447FCA03DBF72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61CEE79F6A6C4E4394437FEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0B09161082F4A61A0BA771D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>830F67AE1F514425BA28F4E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C0C2C02DED7741DD97E0E6D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F70FAAC6EA294AA3B2D78553</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C15241086EB848E6B06FA019</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>386A0B6E8FB44967B5354B1A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C254589AFDB245DBB5F9D5CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>81C43F857E0E402D9E366476</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2F0FF55A6F544E19BBFE454</key>
-		<dict>
-			<key>fileRef</key>
-			<string>204375DCB36C4AE4B6627F04</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C49C3BAC051F4FB48FC1A16B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ADB2295F6BE14204B724DD9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C504AA9730EE40F3B50BFDAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7AE7C819889E4734A346C8CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C88679D8CFF147DE8C2D6CCA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1635D950D6434E4B8AE00138</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C96C0F07D876452C9DB92B87</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>08DEDDA0382F4DEBA8384765</string>
-				<string>C88679D8CFF147DE8C2D6CCA</string>
-				<string>E24DD967276F4196A610FBD7</string>
-				<string>08F88AF4971C4D3680C55365</string>
-				<string>E70F95BA02724C5C9B45C998</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CB63F8C7DB3A45CA82579E8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>945DC7D2A02F4335AF4498C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE821A8ABE454093A73D2DE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSReverseGeocodeOutput.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSReverseGeocodeOutput.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D47D0AF2F7794C72A82FA278</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D47912E74AB4DE385C84F56</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5E6C0AEDB3849329778F744</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C49C3BAC051F4FB48FC1A16B</string>
-				<string>C0B09161082F4A61A0BA771D</string>
-				<string>EB70A3C34EAC4493BCF9DA1B</string>
-				<string>097559B66A654D909C6557A8</string>
-				<string>98419B5C93CD456CBC758DE2</string>
-				<string>165B83B358D64714A7F55848</string>
-				<string>B601E071663E49749959364D</string>
-				<string>021E622CC6844924BE614A13</string>
-				<string>56430FAFABA34BF2929971C8</string>
-				<string>C0C2C02DED7741DD97E0E6D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6C52FD5F3FF43C884FE7D92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D6DB600F323147AC9562C26E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FF91122CB63A4B20864DBB1A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-AFNetworking-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D8B7345E3B4F4C4C8D794E85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GLKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GLKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D8BF3DADC5CA4751B16B4B3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B5C76E71A1D48CE927DFBE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DCF965658162453A940E5F9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EEB9704FACB44ABFBDAC938C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DEC63280C3B848DD92D39C76</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E5C9B4428694EAAABFE88BB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Reachability-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DF739D7C11BE401DBCC28588</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Base64nl.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E017A62180F94B32BD1D152F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>945DC7D2A02F4335AF4498C7</string>
-				<string>13D543184B5E4890AB8E6DFA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Base64nl</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0B17A1356134BF4BB5EA7CB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF873DD287CC44A9BA3614F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E1EF6D7CDE2F49A4A88C21A9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BFDF8B63D22447FCA03DBF72</string>
-				<string>B37151CE88214CA19741EB0B</string>
-				<string>6FA8731F5F444F859279FB56</string>
-				<string>B1540D5484D9423482F98932</string>
-				<string>9A9388DAB3A14707BAAAFB56</string>
-				<string>9A1999F274B74662A0260744</string>
-				<string>AE812FFF321842FAB2205017</string>
-				<string>7AF2E5972F8E44E9B8A0B36E</string>
-				<string>B2A94BEC985949C282899A62</string>
-				<string>26A27507E52F44B3A23AE2B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E24DD967276F4196A610FBD7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B21E3544DE0149A099BF7699</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E5024ED828C74F70A86F0628</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>ImageIO.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/ImageIO.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E69602BFE56E4C1EA4181053</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C2F0FF55A6F544E19BBFE454</string>
-				<string>60E11993155E4D60A2CEFFF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E701B73219C5477BBC96537B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreText.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E70AF777118840AE8F4B063B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EC890917AD404FBDA0B3AC4C</string>
-				<string>B0CEAD458F284C46900E04F8</string>
-				<string>8623C4BF11B447E281BCC494</string>
-				<string>ADD88405D308409DB2544FA1</string>
-				<string>5CB0A2A8387F49E983975B6F</string>
-				<string>7A9397C72B1844F2A4961E4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E70F95BA02724C5C9B45C998</key>
-		<dict>
-			<key>fileRef</key>
-			<string>997C7A8A07404B01A8051A17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8D4EB634F3E4FB696435338</key>
-		<dict>
-			<key>fileRef</key>
-			<string>067AC5ED94F44689A20737C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EB5823170550425E925C7EE8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>EB70A3C34EAC4493BCF9DA1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A643664D821D4EFF86D44209</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>EC0253CD8316495EA4E9228B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F20B272683745018CF18A68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC2F5B2EA7B74F17B10EABFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67EAA3F262974ABBA972EEF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC890917AD404FBDA0B3AC4C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>34CA0E7E77DF45599BE5C243</string>
-				<string>53880418BB6B4B15BAADEDE3</string>
-				<string>EB5823170550425E925C7EE8</string>
-				<string>823708A1298C417EB1865405</string>
-				<string>E701B73219C5477BBC96537B</string>
-				<string>67EAA3F262974ABBA972EEF6</string>
-				<string>D8B7345E3B4F4C4C8D794E85</string>
-				<string>B67A0B66B8FE4D76A3FA4163</string>
-				<string>E5024ED828C74F70A86F0628</string>
-				<string>FE3E926C4DF940C7B331188D</string>
-				<string>B170E3CDFA5E44F1B43B425E</string>
-				<string>36D5FC2DEC784A00B1DD2E95</string>
-				<string>3A10A4E1B0AE46EAB2B2C6D3</string>
-				<string>9A97A1834A184908BE103141</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECCB37A0A6FB48638DD4A3E2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FF91122CB63A4B20864DBB1A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-AFNetworking-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EDD6F33375AD4D89BFFF87AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanoramaCameraUpdate.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCameraUpdate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>EE1770C99272484193910C75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>56AD94D1F4984DA8A73AED74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EEB9704FACB44ABFBDAC938C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSPanoramaView.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>EF873DD287CC44A9BA3614F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSURLTileLayer.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSURLTileLayer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F0609D86D5C0479CA5D028DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C00FB6C41714DD6877B7AE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F2BFC216C8EB46998A92F3D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMapLayer.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapLayer.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F2F7581C57A84F6FB586694D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EC2F5B2EA7B74F17B10EABFF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F6524E8842E14EA28098704F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A259C6F1FBEE430588FD3CD8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9B6C77AE03024CF9A6B0E52D</string>
-			<key>remoteInfo</key>
-			<string>Pods-Google-Maps-iOS-SDK</string>
-		</dict>
-		<key>F70FAAC6EA294AA3B2D78553</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AFNetworking-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F8212F662A0B4CC8A50944E4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BAF86C56A0CC4E1FB7AA5114</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E69602BFE56E4C1EA4181053</string>
-				<string>C15241086EB848E6B06FA019</string>
-				<string>1F576FFC561C466B9CF9B6FF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Reachability</string>
-			<key>productName</key>
-			<string>Pods-Reachability</string>
-			<key>productReference</key>
-			<string>997C7A8A07404B01A8051A17</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F9DCB04D99884964AF93AB9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FA5BDC2AD24146AF9B2D2CBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27E00D6A25FE42D69EB67C92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD18AD6937EA4B3484DCE8A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSProjection.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSProjection.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FD68067E497044CD9A972BE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Google-Maps-iOS-SDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FDD6391236564F6DB57A2184</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GMSMutablePath.h</string>
-			<key>path</key>
-			<string>Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMutablePath.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FE3E926C4DF940C7B331188D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FF91122CB63A4B20864DBB1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFNetworking-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FFE7A04626F84DC8B50805E8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F9DCB04D99884964AF93AB9E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>A259C6F1FBEE430588FD3CD8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021E622CC6844924BE614A13 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF20E2406E245BD933B8B68 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		05257E9F5870432689F65225 /* GMSMapLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BFC216C8EB46998A92F3D2 /* GMSMapLayer.h */; };
+		08DEDDA0382F4DEBA8384765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EAA3F262974ABBA972EEF6 /* Foundation.framework */; };
+		08F88AF4971C4D3680C55365 /* libPods-Google-Maps-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D700F453D4D128B554A3F /* libPods-Google-Maps-iOS-SDK.a */; };
+		097559B66A654D909C6557A8 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6462C4B5F48457DB659DA70 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D48F523B08E48B58A75DF23 /* GMSProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = FD18AD6937EA4B3484DCE8A0 /* GMSProjection.h */; };
+		12478BB03D0044448FD1C672 /* GMSSyncTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9697E98374F042E5A57911A0 /* GMSSyncTileLayer.h */; };
+		1455F5C42E9444DCBE41D918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EAA3F262974ABBA972EEF6 /* Foundation.framework */; };
+		1503FC23F98C4C92A093ED44 /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAABFD6063E4E1D80721ADA /* GMSCameraUpdate.h */; };
+		165B83B358D64714A7F55848 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CEED4FA0EE410EAC859F58 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		265459619E4E480185ADA6D3 /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C548F119ACF44538F7F1CE4 /* GMSGeometryUtils.h */; };
+		26A27507E52F44B3A23AE2B2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F9F0473031423486193868 /* UIImageView+AFNetworking.h */; };
+		26F40C03651E4DAFBAEDCA43 /* GMSServices.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F6583CDB674DA891336118 /* GMSServices.h */; };
+		35C538CC050A411F8CD10644 /* GMSPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 434888240AAB4E9DBAD862AA /* GMSPath.h */; };
+		386A0B6E8FB44967B5354B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EAA3F262974ABBA972EEF6 /* Foundation.framework */; };
+		39DF8E870A144417B61F8A87 /* GMSUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D936B3DEED34313B589FD6A /* GMSUISettings.h */; };
+		3B5D32C255DD4EF599A3C9A9 /* Pods-Base64nl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF26B2DA11B4F0EB3A752C0 /* Pods-Base64nl-dummy.m */; };
+		3D9F9CD7815D4BDD9615A3D8 /* GMSMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6360FBD1D1E348B1A34260D1 /* GMSMarker.h */; };
+		413A41ED0D0E4CA2A645B873 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 9426C7312D7D4AD78A4C97CE /* GoogleMaps.h */; };
+		444CE30CF4EE47D6908B3A7B /* GMSPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 655784CF8F024A129B4EAD48 /* GMSPolyline.h */; };
+		56430FAFABA34BF2929971C8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 97767AAF97B64B159BDA1826 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5720B1EB3A7144318F14290A /* GMSPanorama.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E329255F2C4288B220BDD3 /* GMSPanorama.h */; };
+		60E11993155E4D60A2CEFFF2 /* Pods-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9F613AE65F47CD8C8655FE /* Pods-Reachability-dummy.m */; };
+		6A704F12BF8448F5A00E3083 /* GMSPanoramaService.h in Headers */ = {isa = PBXBuildFile; fileRef = B5901AA48A2242F3AB822870 /* GMSPanoramaService.h */; };
+		6FA8731F5F444F859279FB56 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 733FAC3E2DD74587B6ACD393 /* AFImageRequestOperation.h */; };
+		726639B07C544EA2B555C3E5 /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5F19A9B9A047C9B2F3E0F0 /* GMSGeocoder.h */; };
+		7514277785CB45239D29E3C6 /* Pods-Google-Maps-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A1900351E544DC80F81447 /* Pods-Google-Maps-iOS-SDK-dummy.m */; };
+		75CD1579EB9444939329F93D /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D543184B5E4890AB8E6DFA /* Base64.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7AF2E5972F8E44E9B8A0B36E /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C52FD5F3FF43C884FE7D92 /* AFURLConnectionOperation.h */; };
+		811A2E73316D41AA87EB434A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EAA3F262974ABBA972EEF6 /* Foundation.framework */; };
+		83399FF8A3A84FCF90F03622 /* GMSPanoramaCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD6F33375AD4D89BFFF87AB /* GMSPanoramaCameraUpdate.h */; };
+		857182B69E8244C08839EC11 /* GMSPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B94103FE46C4F96B606302B /* GMSPolygon.h */; };
+		91AB83B2765F49BD9DCCE8B1 /* GMSPanoramaLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F42B5B2E53740B4A1F0B53A /* GMSPanoramaLink.h */; };
+		970B83347F934A018F8BE5B9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC905ED35B94ADC90F16249 /* Pods-dummy.m */; };
+		98419B5C93CD456CBC758DE2 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80ABAF4314D54E409910F3A2 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		98ACE44544CE48AFBAB3963D /* GMSReverseGeocodeOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = CE821A8ABE454093A73D2DE0 /* GMSReverseGeocodeOutput.h */; };
+		9A1999F274B74662A0260744 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7986210C78394ACBA4D8404A /* AFNetworking.h */; };
+		9A9388DAB3A14707BAAAFB56 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 035245AAD00C4059B7F91A4E /* AFNetworkActivityIndicatorManager.h */; };
+		9D5FB7FE52DB4EF78B4910E0 /* GMSMutablePath.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6391236564F6DB57A2184 /* GMSMutablePath.h */; };
+		A9CDE32845AB4E21B203B881 /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B30ED8EC6A14062B49B2E55 /* GMSCoordinateBounds.h */; };
+		AE812FFF321842FAB2205017 /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EBE93B5A5C4859A575F699 /* AFPropertyListRequestOperation.h */; };
+		B1540D5484D9423482F98932 /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2850F927E4AD4C94B4C40CFA /* AFJSONRequestOperation.h */; };
+		B2A94BEC985949C282899A62 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F16607A4C464CC7B07CBA12 /* AFXMLRequestOperation.h */; };
+		B37151CE88214CA19741EB0B /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BE6D897B664B1DBDE59160 /* AFHTTPRequestOperation.h */; };
+		B601E071663E49749959364D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9840728734AC45F4ABDA2D67 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B783541CFA94419CA3A34643 /* GMSMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D41AB2E7C99446BB90B68A4 /* GMSMapView.h */; };
+		BDD8B7A4BF7F4DEF9EE12B2D /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 087529CD980D4A24AAA9871D /* Reachability.h */; };
+		BFDF8B63D22447FCA03DBF72 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CEE79F6A6C4E4394437FEF /* AFHTTPClient.h */; };
+		C0B09161082F4A61A0BA771D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F67AE1F514425BA28F4E8 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C0C2C02DED7741DD97E0E6D0 /* Pods-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F70FAAC6EA294AA3B2D78553 /* Pods-AFNetworking-dummy.m */; };
+		C254589AFDB245DBB5F9D5CD /* GMSTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C43F857E0E402D9E366476 /* GMSTileLayer.h */; };
+		C2F0FF55A6F544E19BBFE454 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 204375DCB36C4AE4B6627F04 /* Reachability.m */; };
+		C49C3BAC051F4FB48FC1A16B /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB2295F6BE14204B724DD9D /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C504AA9730EE40F3B50BFDAA /* GMSMapView+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE7C819889E4734A346C8CE /* GMSMapView+Animation.h */; };
+		C88679D8CFF147DE8C2D6CCA /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635D950D6434E4B8AE00138 /* libPods-AFNetworking.a */; };
+		CB63F8C7DB3A45CA82579E8E /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 945DC7D2A02F4335AF4498C7 /* Base64.h */; };
+		D47D0AF2F7794C72A82FA278 /* GMSPanoramaCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D47912E74AB4DE385C84F56 /* GMSPanoramaCamera.h */; };
+		D8BF3DADC5CA4751B16B4B3E /* GMSOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5C76E71A1D48CE927DFBE2 /* GMSOrientation.h */; };
+		DCF965658162453A940E5F9E /* GMSPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB9704FACB44ABFBDAC938C /* GMSPanoramaView.h */; };
+		E0B17A1356134BF4BB5EA7CB /* GMSURLTileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EF873DD287CC44A9BA3614F9 /* GMSURLTileLayer.h */; };
+		E24DD967276F4196A610FBD7 /* libPods-Base64nl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21E3544DE0149A099BF7699 /* libPods-Base64nl.a */; };
+		E70F95BA02724C5C9B45C998 /* libPods-Reachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 997C7A8A07404B01A8051A17 /* libPods-Reachability.a */; };
+		E8D4EB634F3E4FB696435338 /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 067AC5ED94F44689A20737C8 /* GMSGroundOverlay.h */; };
+		EB70A3C34EAC4493BCF9DA1B /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A643664D821D4EFF86D44209 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EC0253CD8316495EA4E9228B /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F20B272683745018CF18A68 /* GMSCircle.h */; };
+		EC2F5B2EA7B74F17B10EABFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EAA3F262974ABBA972EEF6 /* Foundation.framework */; };
+		EE1770C99272484193910C75 /* GMSOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AD94D1F4984DA8A73AED74 /* GMSOverlay.h */; };
+		F0609D86D5C0479CA5D028DA /* GMSCameraPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C00FB6C41714DD6877B7AE2 /* GMSCameraPosition.h */; };
+		FA5BDC2AD24146AF9B2D2CBE /* GMSMapView+Overlays.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E00D6A25FE42D69EB67C92 /* GMSMapView+Overlays.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F973960EDD6487CB3813860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259C6F1FBEE430588FD3CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8212F662A0B4CC8A50944E4;
+			remoteInfo = "Pods-Reachability";
+		};
+		35715092B00145729FC4A779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259C6F1FBEE430588FD3CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DA6152D0824FAC9B9FF1F6;
+			remoteInfo = "Pods-Base64nl";
+		};
+		A77EE5F0C609470C80455228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259C6F1FBEE430588FD3CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783786D8A0804D8E83EA0768;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		F6524E8842E14EA28098704F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A259C6F1FBEE430588FD3CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6C77AE03024CF9A6B0E52D;
+			remoteInfo = "Pods-Google-Maps-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035245AAD00C4059B7F91A4E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		067AC5ED94F44689A20737C8 /* GMSGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGroundOverlay.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGroundOverlay.h"; sourceTree = SOURCE_ROOT; };
+		087529CD980D4A24AAA9871D /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = SOURCE_ROOT; };
+		0B5C76E71A1D48CE927DFBE2 /* GMSOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSOrientation.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h"; sourceTree = SOURCE_ROOT; };
+		0D47912E74AB4DE385C84F56 /* GMSPanoramaCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaCamera.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCamera.h"; sourceTree = SOURCE_ROOT; };
+		13D543184B5E4890AB8E6DFA /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Base64nl/Base64/Base64.m; sourceTree = SOURCE_ROOT; };
+		15A1900351E544DC80F81447 /* Pods-Google-Maps-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Google-Maps-iOS-SDK-dummy.m"; sourceTree = SOURCE_ROOT; };
+		15EBE93B5A5C4859A575F699 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		1635D950D6434E4B8AE00138 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B94103FE46C4F96B606302B /* GMSPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPolygon.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPolygon.h"; sourceTree = SOURCE_ROOT; };
+		1DF20E2406E245BD933B8B68 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		204375DCB36C4AE4B6627F04 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = SOURCE_ROOT; };
+		27E00D6A25FE42D69EB67C92 /* GMSMapView+Overlays.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMSMapView+Overlays.h"; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Overlays.h"; sourceTree = SOURCE_ROOT; };
+		2850F927E4AD4C94B4C40CFA /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		29A528736CE142048498C819 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2431C025834C2E8C82B57B /* Pods-Google-Maps-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Google-Maps-iOS-SDK.xcconfig"; sourceTree = SOURCE_ROOT; };
+		31F9F0473031423486193868 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		34CA0E7E77DF45599BE5C243 /* AVFoundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		36D5FC2DEC784A00B1DD2E95 /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		375D700F453D4D128B554A3F /* libPods-Google-Maps-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Google-Maps-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		380F4469A14F443FB03DFF28 /* Pods-Base64nl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Base64nl-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3A10A4E1B0AE46EAB2B2C6D3 /* Security.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3B9F613AE65F47CD8C8655FE /* Pods-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reachability-dummy.m"; sourceTree = SOURCE_ROOT; };
+		3C5F19A9B9A047C9B2F3E0F0 /* GMSGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGeocoder.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGeocoder.h"; sourceTree = SOURCE_ROOT; };
+		434888240AAB4E9DBAD862AA /* GMSPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPath.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPath.h"; sourceTree = SOURCE_ROOT; };
+		4E5C9B4428694EAAABFE88BB /* Pods-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reachability-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		52BE6D897B664B1DBDE59160 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		53880418BB6B4B15BAADEDE3 /* CoreData.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		554619ED1DC94BFEAAD4D3C3 /* Pods-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking.xcconfig"; sourceTree = SOURCE_ROOT; };
+		56AD94D1F4984DA8A73AED74 /* GMSOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSOverlay.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSOverlay.h"; sourceTree = SOURCE_ROOT; };
+		5CA6E2DD66834661ABB3B483 /* Pods-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reachability.xcconfig"; sourceTree = SOURCE_ROOT; };
+		5D996D0B77D74ADE83360BAF /* Pods-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reachability-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		61CEE79F6A6C4E4394437FEF /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		6360FBD1D1E348B1A34260D1 /* GMSMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMarker.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMarker.h"; sourceTree = SOURCE_ROOT; };
+		64E329255F2C4288B220BDD3 /* GMSPanorama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanorama.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanorama.h"; sourceTree = SOURCE_ROOT; };
+		655784CF8F024A129B4EAD48 /* GMSPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPolyline.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPolyline.h"; sourceTree = SOURCE_ROOT; };
+		67EAA3F262974ABBA972EEF6 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BF26B2DA11B4F0EB3A752C0 /* Pods-Base64nl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Base64nl-dummy.m"; sourceTree = SOURCE_ROOT; };
+		6D936B3DEED34313B589FD6A /* GMSUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSUISettings.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h"; sourceTree = SOURCE_ROOT; };
+		733FAC3E2DD74587B6ACD393 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		75CEED4FA0EE410EAC859F58 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		792234B0316D42E7B46BA566 /* Pods-Base64nl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Base64nl-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7986210C78394ACBA4D8404A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		7A9397C72B1844F2A4961E4A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AE7C819889E4734A346C8CE /* GMSMapView+Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMSMapView+Animation.h"; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Animation.h"; sourceTree = SOURCE_ROOT; };
+		7B30ED8EC6A14062B49B2E55 /* GMSCoordinateBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCoordinateBounds.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCoordinateBounds.h"; sourceTree = SOURCE_ROOT; };
+		7BE8B33C9A95423BAC75C796 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMaps.bundle; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
+		7FC905ED35B94ADC90F16249 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		80ABAF4314D54E409910F3A2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		81C43F857E0E402D9E366476 /* GMSTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSTileLayer.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSTileLayer.h"; sourceTree = SOURCE_ROOT; };
+		823708A1298C417EB1865405 /* CoreLocation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		830F67AE1F514425BA28F4E8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		8F16607A4C464CC7B07CBA12 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		8F2F75EEECDC4E0980D191BD /* Pods-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8FD8D78C4D0C4F958C685641 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		9172D8D637134C25B3938327 /* Pods-Google-Maps-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Google-Maps-iOS-SDK-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9426C7312D7D4AD78A4C97CE /* GoogleMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleMaps.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GoogleMaps.h"; sourceTree = SOURCE_ROOT; };
+		945DC7D2A02F4335AF4498C7 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Base64nl/Base64/Base64.h; sourceTree = SOURCE_ROOT; };
+		9697E98374F042E5A57911A0 /* GMSSyncTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSSyncTileLayer.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSSyncTileLayer.h"; sourceTree = SOURCE_ROOT; };
+		97767AAF97B64B159BDA1826 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		9840728734AC45F4ABDA2D67 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		997C7A8A07404B01A8051A17 /* libPods-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A97A1834A184908BE103141 /* SystemConfiguration.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9C00FB6C41714DD6877B7AE2 /* GMSCameraPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCameraPosition.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCameraPosition.h"; sourceTree = SOURCE_ROOT; };
+		9C548F119ACF44538F7F1CE4 /* GMSGeometryUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSGeometryUtils.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSGeometryUtils.h"; sourceTree = SOURCE_ROOT; };
+		9D41AB2E7C99446BB90B68A4 /* GMSMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMapView.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapView.h"; sourceTree = SOURCE_ROOT; };
+		9EAABFD6063E4E1D80721ADA /* GMSCameraUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCameraUpdate.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h"; sourceTree = SOURCE_ROOT; };
+		9F20B272683745018CF18A68 /* GMSCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSCircle.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSCircle.h"; sourceTree = SOURCE_ROOT; };
+		9F42B5B2E53740B4A1F0B53A /* GMSPanoramaLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaLink.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h"; sourceTree = SOURCE_ROOT; };
+		A0F6583CDB674DA891336118 /* GMSServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSServices.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSServices.h"; sourceTree = SOURCE_ROOT; };
+		A643664D821D4EFF86D44209 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		A6462C4B5F48457DB659DA70 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		ABBF6FDB3B344C258E012272 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		ACF1D99DF9F246CE8716A96A /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		ADB2295F6BE14204B724DD9D /* AFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		B170E3CDFA5E44F1B43B425E /* OpenGLES.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		B21E3544DE0149A099BF7699 /* libPods-Base64nl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Base64nl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5901AA48A2242F3AB822870 /* GMSPanoramaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaService.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaService.h"; sourceTree = SOURCE_ROOT; };
+		B67A0B66B8FE4D76A3FA4163 /* GoogleMaps.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GoogleMaps.framework; sourceTree = DEVELOPER_DIR; };
+		BEFFE2498828479783387F90 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		CE821A8ABE454093A73D2DE0 /* GMSReverseGeocodeOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSReverseGeocodeOutput.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSReverseGeocodeOutput.h"; sourceTree = SOURCE_ROOT; };
+		D6C52FD5F3FF43C884FE7D92 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		D8B7345E3B4F4C4C8D794E85 /* GLKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		DF739D7C11BE401DBCC28588 /* Pods-Base64nl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Base64nl.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E5024ED828C74F70A86F0628 /* ImageIO.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		E701B73219C5477BBC96537B /* CoreText.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		EB5823170550425E925C7EE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EDD6F33375AD4D89BFFF87AB /* GMSPanoramaCameraUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaCameraUpdate.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCameraUpdate.h"; sourceTree = SOURCE_ROOT; };
+		EEB9704FACB44ABFBDAC938C /* GMSPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSPanoramaView.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaView.h"; sourceTree = SOURCE_ROOT; };
+		EF873DD287CC44A9BA3614F9 /* GMSURLTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSURLTileLayer.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSURLTileLayer.h"; sourceTree = SOURCE_ROOT; };
+		F2BFC216C8EB46998A92F3D2 /* GMSMapLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMapLayer.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMapLayer.h"; sourceTree = SOURCE_ROOT; };
+		F70FAAC6EA294AA3B2D78553 /* Pods-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFNetworking-dummy.m"; sourceTree = SOURCE_ROOT; };
+		F9DCB04D99884964AF93AB9E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FD18AD6937EA4B3484DCE8A0 /* GMSProjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSProjection.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSProjection.h"; sourceTree = SOURCE_ROOT; };
+		FD68067E497044CD9A972BE5 /* Pods-Google-Maps-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Google-Maps-iOS-SDK-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		FDD6391236564F6DB57A2184 /* GMSMutablePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSMutablePath.h; path = "Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Headers/GMSMutablePath.h"; sourceTree = SOURCE_ROOT; };
+		FE3E926C4DF940C7B331188D /* MobileCoreServices.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		FF91122CB63A4B20864DBB1A /* Pods-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341416D05A144187AF9C3899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455F5C42E9444DCBE41D918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9286B09F9A44FF9E1F4B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811A2E73316D41AA87EB434A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15241086EB848E6B06FA019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386A0B6E8FB44967B5354B1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96C0F07D876452C9DB92B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DEDDA0382F4DEBA8384765 /* Foundation.framework in Frameworks */,
+				C88679D8CFF147DE8C2D6CCA /* libPods-AFNetworking.a in Frameworks */,
+				E24DD967276F4196A610FBD7 /* libPods-Base64nl.a in Frameworks */,
+				08F88AF4971C4D3680C55365 /* libPods-Google-Maps-iOS-SDK.a in Frameworks */,
+				E70F95BA02724C5C9B45C998 /* libPods-Reachability.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F7581C57A84F6FB586694D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2F5B2EA7B74F17B10EABFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725068AA3DF4F5B8982D745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DCB04D99884964AF93AB9E /* Pods.xcconfig */,
+				BEFFE2498828479783387F90 /* Pods-environment.h */,
+				8FD8D78C4D0C4F958C685641 /* Pods-resources.sh */,
+				ABBF6FDB3B344C258E012272 /* Pods-acknowledgements.plist */,
+				ACF1D99DF9F246CE8716A96A /* Pods-acknowledgements.markdown */,
+				7FC905ED35B94ADC90F16249 /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1198CF91D9CD41D69CE43E73 /* Pods-Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2F2431C025834C2E8C82B57B /* Pods-Google-Maps-iOS-SDK.xcconfig */,
+				9172D8D637134C25B3938327 /* Pods-Google-Maps-iOS-SDK-Private.xcconfig */,
+				FD68067E497044CD9A972BE5 /* Pods-Google-Maps-iOS-SDK-prefix.pch */,
+				15A1900351E544DC80F81447 /* Pods-Google-Maps-iOS-SDK-dummy.m */,
+			);
+			name = "Pods-Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		1242CB23DF5641EB943B1658 /* Pods-Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6E2DD66834661ABB3B483 /* Pods-Reachability.xcconfig */,
+				4E5C9B4428694EAAABFE88BB /* Pods-Reachability-Private.xcconfig */,
+				5D996D0B77D74ADE83360BAF /* Pods-Reachability-prefix.pch */,
+				3B9F613AE65F47CD8C8655FE /* Pods-Reachability-dummy.m */,
+			);
+			name = "Pods-Reachability";
+			sourceTree = "<group>";
+		};
+		3C40AB68CF2D4E4C9547A4F1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				61CEE79F6A6C4E4394437FEF /* AFHTTPClient.h */,
+				ADB2295F6BE14204B724DD9D /* AFHTTPClient.m */,
+				52BE6D897B664B1DBDE59160 /* AFHTTPRequestOperation.h */,
+				830F67AE1F514425BA28F4E8 /* AFHTTPRequestOperation.m */,
+				733FAC3E2DD74587B6ACD393 /* AFImageRequestOperation.h */,
+				A643664D821D4EFF86D44209 /* AFImageRequestOperation.m */,
+				2850F927E4AD4C94B4C40CFA /* AFJSONRequestOperation.h */,
+				A6462C4B5F48457DB659DA70 /* AFJSONRequestOperation.m */,
+				035245AAD00C4059B7F91A4E /* AFNetworkActivityIndicatorManager.h */,
+				80ABAF4314D54E409910F3A2 /* AFNetworkActivityIndicatorManager.m */,
+				7986210C78394ACBA4D8404A /* AFNetworking.h */,
+				15EBE93B5A5C4859A575F699 /* AFPropertyListRequestOperation.h */,
+				75CEED4FA0EE410EAC859F58 /* AFPropertyListRequestOperation.m */,
+				D6C52FD5F3FF43C884FE7D92 /* AFURLConnectionOperation.h */,
+				9840728734AC45F4ABDA2D67 /* AFURLConnectionOperation.m */,
+				8F16607A4C464CC7B07CBA12 /* AFXMLRequestOperation.h */,
+				1DF20E2406E245BD933B8B68 /* AFXMLRequestOperation.m */,
+				31F9F0473031423486193868 /* UIImageView+AFNetworking.h */,
+				97767AAF97B64B159BDA1826 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		415DBB49682D4BCA817CE57E /* Pods-AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				554619ED1DC94BFEAAD4D3C3 /* Pods-AFNetworking.xcconfig */,
+				FF91122CB63A4B20864DBB1A /* Pods-AFNetworking-Private.xcconfig */,
+				8F2F75EEECDC4E0980D191BD /* Pods-AFNetworking-prefix.pch */,
+				F70FAAC6EA294AA3B2D78553 /* Pods-AFNetworking-dummy.m */,
+			);
+			name = "Pods-AFNetworking";
+			sourceTree = "<group>";
+		};
+		44930E1792FD454CBA5D3031 /* Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8B33C9A95423BAC75C796 /* GoogleMaps.bundle */,
+			);
+			name = "Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5CB0A2A8387F49E983975B6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				415DBB49682D4BCA817CE57E /* Pods-AFNetworking */,
+				B01DCE0ED991440796E87542 /* Pods-Base64nl */,
+				1198CF91D9CD41D69CE43E73 /* Pods-Google-Maps-iOS-SDK */,
+				1242CB23DF5641EB943B1658 /* Pods-Reachability */,
+				0725068AA3DF4F5B8982D745 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8623C4BF11B447E281BCC494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1635D950D6434E4B8AE00138 /* libPods-AFNetworking.a */,
+				B21E3544DE0149A099BF7699 /* libPods-Base64nl.a */,
+				375D700F453D4D128B554A3F /* libPods-Google-Maps-iOS-SDK.a */,
+				997C7A8A07404B01A8051A17 /* libPods-Reachability.a */,
+				29A528736CE142048498C819 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50D184AD1C34248BD367644 /* Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C00FB6C41714DD6877B7AE2 /* GMSCameraPosition.h */,
+				9EAABFD6063E4E1D80721ADA /* GMSCameraUpdate.h */,
+				9F20B272683745018CF18A68 /* GMSCircle.h */,
+				7B30ED8EC6A14062B49B2E55 /* GMSCoordinateBounds.h */,
+				3C5F19A9B9A047C9B2F3E0F0 /* GMSGeocoder.h */,
+				9C548F119ACF44538F7F1CE4 /* GMSGeometryUtils.h */,
+				067AC5ED94F44689A20737C8 /* GMSGroundOverlay.h */,
+				F2BFC216C8EB46998A92F3D2 /* GMSMapLayer.h */,
+				7AE7C819889E4734A346C8CE /* GMSMapView+Animation.h */,
+				27E00D6A25FE42D69EB67C92 /* GMSMapView+Overlays.h */,
+				9D41AB2E7C99446BB90B68A4 /* GMSMapView.h */,
+				6360FBD1D1E348B1A34260D1 /* GMSMarker.h */,
+				FDD6391236564F6DB57A2184 /* GMSMutablePath.h */,
+				0B5C76E71A1D48CE927DFBE2 /* GMSOrientation.h */,
+				56AD94D1F4984DA8A73AED74 /* GMSOverlay.h */,
+				64E329255F2C4288B220BDD3 /* GMSPanorama.h */,
+				0D47912E74AB4DE385C84F56 /* GMSPanoramaCamera.h */,
+				EDD6F33375AD4D89BFFF87AB /* GMSPanoramaCameraUpdate.h */,
+				9F42B5B2E53740B4A1F0B53A /* GMSPanoramaLink.h */,
+				B5901AA48A2242F3AB822870 /* GMSPanoramaService.h */,
+				EEB9704FACB44ABFBDAC938C /* GMSPanoramaView.h */,
+				434888240AAB4E9DBAD862AA /* GMSPath.h */,
+				1B94103FE46C4F96B606302B /* GMSPolygon.h */,
+				655784CF8F024A129B4EAD48 /* GMSPolyline.h */,
+				FD18AD6937EA4B3484DCE8A0 /* GMSProjection.h */,
+				CE821A8ABE454093A73D2DE0 /* GMSReverseGeocodeOutput.h */,
+				A0F6583CDB674DA891336118 /* GMSServices.h */,
+				9697E98374F042E5A57911A0 /* GMSSyncTileLayer.h */,
+				81C43F857E0E402D9E366476 /* GMSTileLayer.h */,
+				6D936B3DEED34313B589FD6A /* GMSUISettings.h */,
+				EF873DD287CC44A9BA3614F9 /* GMSURLTileLayer.h */,
+				9426C7312D7D4AD78A4C97CE /* GoogleMaps.h */,
+			);
+			name = "Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		AD9BB60163424D43A6D88A5B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				087529CD980D4A24AAA9871D /* Reachability.h */,
+				204375DCB36C4AE4B6627F04 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		ADD88405D308409DB2544FA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44930E1792FD454CBA5D3031 /* Google-Maps-iOS-SDK */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B01DCE0ED991440796E87542 /* Pods-Base64nl */ = {
+			isa = PBXGroup;
+			children = (
+				DF739D7C11BE401DBCC28588 /* Pods-Base64nl.xcconfig */,
+				380F4469A14F443FB03DFF28 /* Pods-Base64nl-Private.xcconfig */,
+				792234B0316D42E7B46BA566 /* Pods-Base64nl-prefix.pch */,
+				6BF26B2DA11B4F0EB3A752C0 /* Pods-Base64nl-dummy.m */,
+			);
+			name = "Pods-Base64nl";
+			sourceTree = "<group>";
+		};
+		B0CEAD458F284C46900E04F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C40AB68CF2D4E4C9547A4F1 /* AFNetworking */,
+				E017A62180F94B32BD1D152F /* Base64nl */,
+				A50D184AD1C34248BD367644 /* Google-Maps-iOS-SDK */,
+				AD9BB60163424D43A6D88A5B /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E017A62180F94B32BD1D152F /* Base64nl */ = {
+			isa = PBXGroup;
+			children = (
+				945DC7D2A02F4335AF4498C7 /* Base64.h */,
+				13D543184B5E4890AB8E6DFA /* Base64.m */,
+			);
+			name = Base64nl;
+			sourceTree = "<group>";
+		};
+		E70AF777118840AE8F4B063B = {
+			isa = PBXGroup;
+			children = (
+				EC890917AD404FBDA0B3AC4C /* Frameworks */,
+				B0CEAD458F284C46900E04F8 /* Pods */,
+				8623C4BF11B447E281BCC494 /* Products */,
+				ADD88405D308409DB2544FA1 /* Resources */,
+				5CB0A2A8387F49E983975B6F /* Targets Support Files */,
+				7A9397C72B1844F2A4961E4A /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		EC890917AD404FBDA0B3AC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34CA0E7E77DF45599BE5C243 /* AVFoundation.framework */,
+				53880418BB6B4B15BAADEDE3 /* CoreData.framework */,
+				EB5823170550425E925C7EE8 /* CoreGraphics.framework */,
+				823708A1298C417EB1865405 /* CoreLocation.framework */,
+				E701B73219C5477BBC96537B /* CoreText.framework */,
+				67EAA3F262974ABBA972EEF6 /* Foundation.framework */,
+				D8B7345E3B4F4C4C8D794E85 /* GLKit.framework */,
+				B67A0B66B8FE4D76A3FA4163 /* GoogleMaps.framework */,
+				E5024ED828C74F70A86F0628 /* ImageIO.framework */,
+				FE3E926C4DF940C7B331188D /* MobileCoreServices.framework */,
+				B170E3CDFA5E44F1B43B425E /* OpenGLES.framework */,
+				36D5FC2DEC784A00B1DD2E95 /* QuartzCore.framework */,
+				3A10A4E1B0AE46EAB2B2C6D3 /* Security.framework */,
+				9A97A1834A184908BE103141 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F576FFC561C466B9CF9B6FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD8B7A4BF7F4DEF9EE12B2D /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43075651FA4BC39478211E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB63F8C7DB3A45CA82579E8E /* Base64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B28F9F0600642AE8A581027 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0609D86D5C0479CA5D028DA /* GMSCameraPosition.h in Headers */,
+				1503FC23F98C4C92A093ED44 /* GMSCameraUpdate.h in Headers */,
+				EC0253CD8316495EA4E9228B /* GMSCircle.h in Headers */,
+				A9CDE32845AB4E21B203B881 /* GMSCoordinateBounds.h in Headers */,
+				726639B07C544EA2B555C3E5 /* GMSGeocoder.h in Headers */,
+				265459619E4E480185ADA6D3 /* GMSGeometryUtils.h in Headers */,
+				E8D4EB634F3E4FB696435338 /* GMSGroundOverlay.h in Headers */,
+				05257E9F5870432689F65225 /* GMSMapLayer.h in Headers */,
+				C504AA9730EE40F3B50BFDAA /* GMSMapView+Animation.h in Headers */,
+				FA5BDC2AD24146AF9B2D2CBE /* GMSMapView+Overlays.h in Headers */,
+				B783541CFA94419CA3A34643 /* GMSMapView.h in Headers */,
+				3D9F9CD7815D4BDD9615A3D8 /* GMSMarker.h in Headers */,
+				9D5FB7FE52DB4EF78B4910E0 /* GMSMutablePath.h in Headers */,
+				D8BF3DADC5CA4751B16B4B3E /* GMSOrientation.h in Headers */,
+				EE1770C99272484193910C75 /* GMSOverlay.h in Headers */,
+				5720B1EB3A7144318F14290A /* GMSPanorama.h in Headers */,
+				D47D0AF2F7794C72A82FA278 /* GMSPanoramaCamera.h in Headers */,
+				83399FF8A3A84FCF90F03622 /* GMSPanoramaCameraUpdate.h in Headers */,
+				91AB83B2765F49BD9DCCE8B1 /* GMSPanoramaLink.h in Headers */,
+				6A704F12BF8448F5A00E3083 /* GMSPanoramaService.h in Headers */,
+				DCF965658162453A940E5F9E /* GMSPanoramaView.h in Headers */,
+				35C538CC050A411F8CD10644 /* GMSPath.h in Headers */,
+				857182B69E8244C08839EC11 /* GMSPolygon.h in Headers */,
+				444CE30CF4EE47D6908B3A7B /* GMSPolyline.h in Headers */,
+				0D48F523B08E48B58A75DF23 /* GMSProjection.h in Headers */,
+				98ACE44544CE48AFBAB3963D /* GMSReverseGeocodeOutput.h in Headers */,
+				26F40C03651E4DAFBAEDCA43 /* GMSServices.h in Headers */,
+				12478BB03D0044448FD1C672 /* GMSSyncTileLayer.h in Headers */,
+				C254589AFDB245DBB5F9D5CD /* GMSTileLayer.h in Headers */,
+				39DF8E870A144417B61F8A87 /* GMSUISettings.h in Headers */,
+				E0B17A1356134BF4BB5EA7CB /* GMSURLTileLayer.h in Headers */,
+				413A41ED0D0E4CA2A645B873 /* GoogleMaps.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EF6D7CDE2F49A4A88C21A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDF8B63D22447FCA03DBF72 /* AFHTTPClient.h in Headers */,
+				B37151CE88214CA19741EB0B /* AFHTTPRequestOperation.h in Headers */,
+				6FA8731F5F444F859279FB56 /* AFImageRequestOperation.h in Headers */,
+				B1540D5484D9423482F98932 /* AFJSONRequestOperation.h in Headers */,
+				9A9388DAB3A14707BAAAFB56 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				9A1999F274B74662A0260744 /* AFNetworking.h in Headers */,
+				AE812FFF321842FAB2205017 /* AFPropertyListRequestOperation.h in Headers */,
+				7AF2E5972F8E44E9B8A0B36E /* AFURLConnectionOperation.h in Headers */,
+				B2A94BEC985949C282899A62 /* AFXMLRequestOperation.h in Headers */,
+				26A27507E52F44B3A23AE2B2 /* UIImageView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17DA6152D0824FAC9B9FF1F6 /* Pods-Base64nl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDF9100089949A389891C57 /* Build configuration list for PBXNativeTarget "Pods-Base64nl" */;
+			buildPhases = (
+				507AFE2A16EC423099288B87 /* Sources */,
+				AC9286B09F9A44FF9E1F4B6B /* Frameworks */,
+				3C43075651FA4BC39478211E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Base64nl";
+			productName = "Pods-Base64nl";
+			productReference = B21E3544DE0149A099BF7699 /* libPods-Base64nl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		72772E32B30E4B3D83AC5753 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BA2A6E7226411A8A13E9EE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				0561A842CFE94459A1ECDF9D /* Sources */,
+				C96C0F07D876452C9DB92B87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00B71F5AE5B41C39C7A73C1 /* PBXTargetDependency */,
+				65BDC56EC25B4BC68C5B5448 /* PBXTargetDependency */,
+				7F90C19DD7704CC7A02DAF65 /* PBXTargetDependency */,
+				BAF31ACBDA424A9CB3FD7369 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 29A528736CE142048498C819 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		783786D8A0804D8E83EA0768 /* Pods-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810ABCAC73024227BF046542 /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */;
+			buildPhases = (
+				D5E6C0AEDB3849329778F744 /* Sources */,
+				F2F7581C57A84F6FB586694D /* Frameworks */,
+				E1EF6D7CDE2F49A4A88C21A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFNetworking";
+			productName = "Pods-AFNetworking";
+			productReference = 1635D950D6434E4B8AE00138 /* libPods-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9B6C77AE03024CF9A6B0E52D /* Pods-Google-Maps-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A45D8641431452F94B872DD /* Build configuration list for PBXNativeTarget "Pods-Google-Maps-iOS-SDK" */;
+			buildPhases = (
+				308A0A3425F2461CB11BE578 /* Sources */,
+				341416D05A144187AF9C3899 /* Frameworks */,
+				7B28F9F0600642AE8A581027 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Google-Maps-iOS-SDK";
+			productName = "Pods-Google-Maps-iOS-SDK";
+			productReference = 375D700F453D4D128B554A3F /* libPods-Google-Maps-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8212F662A0B4CC8A50944E4 /* Pods-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF86C56A0CC4E1FB7AA5114 /* Build configuration list for PBXNativeTarget "Pods-Reachability" */;
+			buildPhases = (
+				E69602BFE56E4C1EA4181053 /* Sources */,
+				C15241086EB848E6B06FA019 /* Frameworks */,
+				1F576FFC561C466B9CF9B6FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Reachability";
+			productName = "Pods-Reachability";
+			productReference = 997C7A8A07404B01A8051A17 /* libPods-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A259C6F1FBEE430588FD3CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 4676FE2AAD474640B24F10F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E70AF777118840AE8F4B063B;
+			productRefGroup = 8623C4BF11B447E281BCC494 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				783786D8A0804D8E83EA0768 /* Pods-AFNetworking */,
+				17DA6152D0824FAC9B9FF1F6 /* Pods-Base64nl */,
+				9B6C77AE03024CF9A6B0E52D /* Pods-Google-Maps-iOS-SDK */,
+				F8212F662A0B4CC8A50944E4 /* Pods-Reachability */,
+				72772E32B30E4B3D83AC5753 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0561A842CFE94459A1ECDF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970B83347F934A018F8BE5B9 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308A0A3425F2461CB11BE578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514277785CB45239D29E3C6 /* Pods-Google-Maps-iOS-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507AFE2A16EC423099288B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CD1579EB9444939329F93D /* Base64.m in Sources */,
+				3B5D32C255DD4EF599A3C9A9 /* Pods-Base64nl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E6C0AEDB3849329778F744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49C3BAC051F4FB48FC1A16B /* AFHTTPClient.m in Sources */,
+				C0B09161082F4A61A0BA771D /* AFHTTPRequestOperation.m in Sources */,
+				EB70A3C34EAC4493BCF9DA1B /* AFImageRequestOperation.m in Sources */,
+				097559B66A654D909C6557A8 /* AFJSONRequestOperation.m in Sources */,
+				98419B5C93CD456CBC758DE2 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				165B83B358D64714A7F55848 /* AFPropertyListRequestOperation.m in Sources */,
+				B601E071663E49749959364D /* AFURLConnectionOperation.m in Sources */,
+				021E622CC6844924BE614A13 /* AFXMLRequestOperation.m in Sources */,
+				56430FAFABA34BF2929971C8 /* UIImageView+AFNetworking.m in Sources */,
+				C0C2C02DED7741DD97E0E6D0 /* Pods-AFNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69602BFE56E4C1EA4181053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F0FF55A6F544E19BBFE454 /* Reachability.m in Sources */,
+				60E11993155E4D60A2CEFFF2 /* Pods-Reachability-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65BDC56EC25B4BC68C5B5448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DA6152D0824FAC9B9FF1F6 /* Pods-Base64nl */;
+			targetProxy = 35715092B00145729FC4A779 /* PBXContainerItemProxy */;
+		};
+		7F90C19DD7704CC7A02DAF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6C77AE03024CF9A6B0E52D /* Pods-Google-Maps-iOS-SDK */;
+			targetProxy = F6524E8842E14EA28098704F /* PBXContainerItemProxy */;
+		};
+		B00B71F5AE5B41C39C7A73C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783786D8A0804D8E83EA0768 /* Pods-AFNetworking */;
+			targetProxy = A77EE5F0C609470C80455228 /* PBXContainerItemProxy */;
+		};
+		BAF31ACBDA424A9CB3FD7369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8212F662A0B4CC8A50944E4 /* Pods-Reachability */;
+			targetProxy = 0F973960EDD6487CB3813860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		065E2BAA8D5E4F0E8D5F8C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9172D8D637134C25B3938327 /* Pods-Google-Maps-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Google-Maps-iOS-SDK-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B6F15E1E73049E58319D85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		5CD6C5342BFC4C5BB219491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		5CF21DC78DEF403E8E715114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5C9B4428694EAAABFE88BB /* Pods-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Reachability-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0D62E3C3B14559A5C97388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380F4469A14F443FB03DFF28 /* Pods-Base64nl-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Base64nl-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C02BADB767C432283F306FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DCB04D99884964AF93AB9E /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74CB6D8AF0794BF18A907950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380F4469A14F443FB03DFF28 /* Pods-Base64nl-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Base64nl-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D36886921944C978EC7A6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9172D8D637134C25B3938327 /* Pods-Google-Maps-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Google-Maps-iOS-SDK-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6DB600F323147AC9562C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF91122CB63A4B20864DBB1A /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-AFNetworking-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEC63280C3B848DD92D39C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5C9B4428694EAAABFE88BB /* Pods-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Reachability-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECCB37A0A6FB48638DD4A3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF91122CB63A4B20864DBB1A /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-AFNetworking-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE7A04626F84DC8B50805E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DCB04D99884964AF93AB9E /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DDF9100089949A389891C57 /* Build configuration list for PBXNativeTarget "Pods-Base64nl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0D62E3C3B14559A5C97388 /* Release */,
+				74CB6D8AF0794BF18A907950 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4676FE2AAD474640B24F10F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD6C5342BFC4C5BB219491E /* Release */,
+				2B6F15E1E73049E58319D85A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810ABCAC73024227BF046542 /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCB37A0A6FB48638DD4A3E2 /* Release */,
+				D6DB600F323147AC9562C26E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A45D8641431452F94B872DD /* Build configuration list for PBXNativeTarget "Pods-Google-Maps-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065E2BAA8D5E4F0E8D5F8C97 /* Release */,
+				8D36886921944C978EC7A6E5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BA2A6E7226411A8A13E9EE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7A04626F84DC8B50805E8 /* Release */,
+				6C02BADB767C432283F306FB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF86C56A0CC4E1FB7AA5114 /* Build configuration list for PBXNativeTarget "Pods-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF21DC78DEF403E8E715114 /* Release */,
+				DEC63280C3B848DD92D39C76 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A259C6F1FBEE430588FD3CD8 /* Project object */;
+}

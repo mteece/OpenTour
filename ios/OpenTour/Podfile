@@ -1,5 +1,5 @@
 platform :ios, '5.1'
-pod 'Google-Maps-iOS-SDK', '~> 1.3.0'
+pod 'Google-Maps-iOS-SDK', '~> 1.4.0'
 pod 'AFNetworking', '~> 1.3.0'
 pod 'Reachability', :head
 pod 'Base64nl', '~> 1.1'

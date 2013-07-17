@@ -66,7 +66,9 @@
 {
     NSLog(@"Do map");
     self.navigationItem.rightBarButtonItem = self.listBarBtn;
-    [self transitionFromViewController:selectedViewController toViewController:[self.subViewControllers objectAtIndex:1] withAnimation:UIViewAnimationOptionTransitionCrossDissolve];
+    [self transitionFromViewController:selectedViewController
+                      toViewController:[self.subViewControllers objectAtIndex:1]
+                         withAnimation:UIViewAnimationOptionTransitionCrossDissolve];
 }
 
 - (void)doList:(id)sender

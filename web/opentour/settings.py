@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Tom Clancy', 'tclancy@gmail.com'),
+    ('Matt T.', 'mteece@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -122,6 +122,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'south',
     'locations',
+    'tastypie',
 )
 
 LOGGING = {

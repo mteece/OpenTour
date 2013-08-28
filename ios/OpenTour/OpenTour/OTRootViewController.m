@@ -7,6 +7,7 @@
 //
 #import "OTMapViewController.h"
 #import "OTAroundMeContainerViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 #import "OTRootViewController.h"
 
@@ -36,7 +37,9 @@
     // Do any additional setup after loading the view from its nib.
     
     [scrollView setDelegate:self];
-    [scrollView setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - kHeightNavigationBar)];
+    //[scrollView setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - kHeightNavigationBar)];
+    
+    
     
     [lblTitle setFont:[OTThemeManager appTextFontStandard]];
     [lblTitle setTextColor:[OTThemeManager appTextColorStandard]];
@@ -74,6 +77,14 @@
     //nextViewController.navigationItem.hidesBackButton = YES;
     //[[self navigationController] pushViewController:nextViewController animated:YES];
     
+    /*[btnAroundMe setHidden:YES];
+    [btnMyTours setHidden:YES];
+    [btnTellMeAboutThis setHidden:YES];*/
+    
+    [self setContentSize];
+    
+    //[self drawButtons];
+    
     [self localizeView];
 }
 
@@ -82,6 +93,11 @@
     [super viewWillAppear:animated];
     
     [self localizeView];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -102,7 +118,7 @@
 #pragma mark -
 #pragma mark Class Methods
 
-- (void) setContentSize
+- (void)setContentSize
 {
     CGRect frame = CGRectZero;
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
@@ -151,6 +167,69 @@
 
 - (void)doTellMeAboutThis:(id)sender
 {
+}
+
+- (void)buttonDidTouchUpInside:(id)sender
+{
+    NSLog(@"%ld", (long)[sender tag]);
+}
+
+- (void)drawButtons
+{
+    int pos = 0;
+    int nCols = 2; // cols
+    int nRows = 2; // rows
+    
+    int h = scrollView.frame.size.height - kHeightNavigationBar;
+    int w = scrollView.frame.size.width;
+    
+    CGPoint pt = CGPointMake(0, 0);
+    
+    for(int row = 0; row < nRows; row++) {
+        // 0,1,2 rows
+        
+        for(int col = 0; col < nCols; col++) {
+            // 0,1,2,3 cols
+            // NSLog(@"%d", row % nRows);
+            
+            pt.x = w/nCols * (col %nCols);
+            pt.y = h/nRows * (row % nRows);
+            
+            NSLog(@"%f, %f", pt.x, pt.y);
+            
+            CGRect box = CGRectMake(pt.x,
+                                    pt.y,
+                                    w/nCols,
+                                    h/nRows);
+            
+            // add button with frame;
+            UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+            [btn setFrame:box];
+            [btn setTitle:[NSString stringWithFormat:@"%d", pos] forState:UIControlStateNormal];
+            [btn setTag:pos];
+            [btn.titleLabel setFont:[OTThemeManager appButtonFontStandard]];
+            [btn.titleLabel setShadowOffset:CGSizeMake(0, -1)];
+            [btn.titleLabel setShadowColor:[UIColor darkGrayColor]];
+            [btn setTintColor:[UIColor darkGrayColor]];
+            [btn addTarget:self action:@selector(buttonDidTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
+
+            
+            CALayer * layer = [btn layer];
+            [layer setMasksToBounds:YES];
+            [layer setCornerRadius:0.0]; //when radius is 0, the border is a rectangle
+            [layer setBorderWidth:2.0];
+            [layer setBorderColor:[[UIColor grayColor] CGColor]];
+            
+            
+            [btn setReversesTitleShadowWhenHighlighted:YES];
+            
+            [[self view] addSubview:btn];
+            
+            pos++;
+        }
+        
+    }
+
 }
 
 @end

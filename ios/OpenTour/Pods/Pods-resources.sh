@@ -31,6 +31,11 @@ install_resource()
       ;;
   esac
 }
+install_resource 'AQGridView/Resources/AQGridSelection.png'
+install_resource 'AQGridView/Resources/AQGridSelectionGray.png'
+install_resource 'AQGridView/Resources/AQGridSelectionGrayBlue.png'
+install_resource 'AQGridView/Resources/AQGridSelectionGreen.png'
+install_resource 'AQGridView/Resources/AQGridSelectionRed.png'
 install_resource 'Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle'
 
 rsync -avr --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
